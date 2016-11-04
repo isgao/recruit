@@ -544,3 +544,2793 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478225872.658
     'REQUEST_TIME' => 1478225872
 ]
+2016-11-04 04:03:52 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: login/site' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('site', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/site', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 04:03:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/site'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52142'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/site'
+    'REQUEST_URI' => '/index.php?r=login/site'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478232232.554
+    'REQUEST_TIME' => 1478232232
+]
+2016-11-04 05:47:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:47:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.zhaopin.com/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54278'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238467.309
+    'REQUEST_TIME' => 1478238467
+]
+2016-11-04 05:47:54 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:47:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.zhaopin.com/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54300'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238474.491
+    'REQUEST_TIME' => 1478238474
+]
+2016-11-04 05:48:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.zhaopin.com/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54318'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238483.786
+    'REQUEST_TIME' => 1478238483
+]
+2016-11-04 05:48:17 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54380'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238497.589
+    'REQUEST_TIME' => 1478238497
+]
+2016-11-04 05:48:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54386'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238499.535
+    'REQUEST_TIME' => 1478238499
+]
+2016-11-04 05:48:20 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54388'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238500.711
+    'REQUEST_TIME' => 1478238500
+]
+2016-11-04 05:48:21 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54393'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238501.606
+    'REQUEST_TIME' => 1478238501
+]
+2016-11-04 05:48:22 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238502.363
+    'REQUEST_TIME' => 1478238502
+]
+2016-11-04 05:48:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54396'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238503.124
+    'REQUEST_TIME' => 1478238503
+]
+2016-11-04 05:48:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists2' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists2', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists2', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists2'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54397'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists2'
+    'REQUEST_URI' => '/index.php?r=users/lists2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238507.717
+    'REQUEST_TIME' => 1478238507
+]
+2016-11-04 05:48:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists2' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists2', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists2', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists2'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54402'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists2'
+    'REQUEST_URI' => '/index.php?r=users/lists2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238509.317
+    'REQUEST_TIME' => 1478238509
+]
+2016-11-04 05:48:44 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/lists1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists1', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 05:48:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.zhaopin.com/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '54408'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478238523.985
+    'REQUEST_TIME' => 1478238523
+]
+2016-11-04 06:25:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/index' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/index', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 06:25:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/index'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '57762'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/index'
+    'REQUEST_URI' => '/index.php?r=users/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478240727.218
+    'REQUEST_TIME' => 1478240727
+]
+2016-11-04 07:45:34 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file' in C:\Users\Administrator\Desktop\recruit\admin(YII)\views\users\lists0.php:899
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 07:45:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '64735'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478245534.376
+    'REQUEST_TIME' => 1478245534
+]
+2016-11-04 07:47:10 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file' in C:\Users\Administrator\Desktop\recruit\admin(YII)\views\users\lists0.php:876
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 07:47:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '64885'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478245630.575
+    'REQUEST_TIME' => 1478245630
+]
+2016-11-04 07:48:11 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file' in C:\Users\Administrator\Desktop\recruit\admin(YII)\views\users\lists0.php:876
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 07:48:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '64989'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478245691.136
+    'REQUEST_TIME' => 1478245691
+]
+2016-11-04 08:04:34 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(20): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\UsersController->actionUpdate()
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_user` WHERE `id`='1'' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(20): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\UsersController->actionUpdate()
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 08:04:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50275'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/update&id=1'
+    'REQUEST_URI' => '/index.php?r=users/update&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478246674.417
+    'REQUEST_TIME' => 1478246674
+]
+2016-11-04 08:04:58 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant dei - assumed 'dei'' in C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php:21
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(21): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'C:\\Users\\Admini...', 21, Array)
+#1 [internal function]: app\controllers\UsersController->actionUpdate()
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/update', Array)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2016-11-04 08:04:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50343'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/update&id=1'
+    'REQUEST_URI' => '/index.php?r=users/update&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478246698.257
+    'REQUEST_TIME' => 1478246698
+]
+2016-11-04 08:05:32 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\RecUser::stutas' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('stutas')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(21): yii\db\BaseActiveRecord->__get('stutas')
+#2 [internal function]: app\controllers\UsersController->actionUpdate()
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/update', Array)
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2016-11-04 08:05:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50396'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/update&id=1'
+    'REQUEST_URI' => '/index.php?r=users/update&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478246731.828
+    'REQUEST_TIME' => 1478246731
+]
+2016-11-04 08:06:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Undefined class constant 'stutas'' in C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 08:06:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50469'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/update&id=1'
+    'REQUEST_URI' => '/index.php?r=users/update&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478246773.416
+    'REQUEST_TIME' => 1478246773
+]
+2016-11-04 08:06:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Undefined class constant 'status'' in C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 08:06:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50493'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/update&id=1'
+    'REQUEST_URI' => '/index.php?r=users/update&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478246784.977
+    'REQUEST_TIME' => 1478246784
+]
+2016-11-04 08:06:27 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Undefined class constant 'status'' in C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 08:06:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50495'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/update&id=1'
+    'REQUEST_URI' => '/index.php?r=users/update&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478246786.944
+    'REQUEST_TIME' => 1478246786
+]
+2016-11-04 08:06:28 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Undefined class constant 'status'' in C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 08:06:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50506'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/update&id=1'
+    'REQUEST_URI' => '/index.php?r=users/update&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478246788.246
+    'REQUEST_TIME' => 1478246788
+]
+2016-11-04 08:07:55 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\RecUser::asArray()' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(21): yii\base\Component->__call('asArray', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(21): app\models\RecUser->asArray()
+#2 [internal function]: app\controllers\UsersController->actionUpdate()
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/update', Array)
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2016-11-04 08:07:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50619'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/update&id=1'
+    'REQUEST_URI' => '/index.php?r=users/update&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478246875.25
+    'REQUEST_TIME' => 1478246875
+]
+2016-11-04 08:07:57 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\RecUser::asArray()' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(21): yii\base\Component->__call('asArray', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(21): app\models\RecUser->asArray()
+#2 [internal function]: app\controllers\UsersController->actionUpdate()
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/update', Array)
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2016-11-04 08:07:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50620'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/update&id=1'
+    'REQUEST_URI' => '/index.php?r=users/update&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478246877.686
+    'REQUEST_TIME' => 1478246877
+]
+2016-11-04 08:12:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/del".' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/del', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 08:12:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/del'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.zhaopin.com/index.php?r=users/lists0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50718'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/del&id=1'
+    'REQUEST_URI' => '/index.php?r=user/del&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478247159.291
+    'REQUEST_TIME' => 1478247159
+]
+2016-11-04 08:12:42 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/del".' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/del', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 08:12:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/del'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50726'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/del&id=1'
+    'REQUEST_URI' => '/index.php?r=user/del&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478247161.902
+    'REQUEST_TIME' => 1478247161
+]
+2016-11-04 08:12:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/del".' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/del', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 08:12:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/del'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '50739'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/del&id=1'
+    'REQUEST_URI' => '/index.php?r=user/del&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478247167.316
+    'REQUEST_TIME' => 1478247167
+]
+2016-11-04 08:16:02 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:16:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '51097'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478247362.162
+    'REQUEST_TIME' => 1478247362
+]
+2016-11-04 08:16:05 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:16:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '51098'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478247364.987
+    'REQUEST_TIME' => 1478247364
+]
+2016-11-04 08:20:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/chu' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('chu', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/chu', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 08:20:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/chu'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.zhaopin.com/index.php?r=users/lists1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '51483'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/chu&id=1'
+    'REQUEST_URI' => '/index.php?r=users/chu&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478247603.309
+    'REQUEST_TIME' => 1478247603
+]
+2016-11-04 08:20:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/chu' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('chu', Array)
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/chu', Array)
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 08:20:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/chu'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.zhaopin.com/index.php?r=users/lists1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '51486'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/chu&id=1'
+    'REQUEST_URI' => '/index.php?r=users/chu&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478247608.633
+    'REQUEST_TIME' => 1478247608
+]
+2016-11-04 08:23:57 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:23:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.zhaopin.com/index.php?r=users/lists1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '51852'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478247837.339
+    'REQUEST_TIME' => 1478247837
+]
+2016-11-04 08:30:14 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:30:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52540'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248214.58
+    'REQUEST_TIME' => 1478248214
+]
+2016-11-04 08:30:16 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:30:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52541'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248216.108
+    'REQUEST_TIME' => 1478248216
+]
+2016-11-04 08:32:40 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:32:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52775'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248360.489
+    'REQUEST_TIME' => 1478248360
+]
+2016-11-04 08:33:23 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:33:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52841'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248403.48
+    'REQUEST_TIME' => 1478248403
+]
+2016-11-04 08:33:26 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:33:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52842'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248406.242
+    'REQUEST_TIME' => 1478248406
+]
+2016-11-04 08:33:27 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:33:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52847'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248407.325
+    'REQUEST_TIME' => 1478248407
+]
+2016-11-04 08:33:42 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getlastsql() on a non-object' in C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 08:33:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52874'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248421.754
+    'REQUEST_TIME' => 1478248421
+]
+2016-11-04 08:33:53 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function lastsql() on a non-object' in C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 08:33:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52894'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248433.061
+    'REQUEST_TIME' => 1478248433
+]
+2016-11-04 08:34:05 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function _sql() on a non-object' in C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 08:34:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52913'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248445.597
+    'REQUEST_TIME' => 1478248445
+]
+2016-11-04 08:35:16 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'' in C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 08:35:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53069'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248516.552
+    'REQUEST_TIME' => 1478248516
+]
+2016-11-04 08:35:37 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\UsersController->actionLists0()
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+The SQL being executed was: SELECT * FROM `rec_user` WHERE `status`=1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\UsersController->actionLists0()
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => HY093
+    [1] => 0
+)
+
+2016-11-04 08:35:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53100'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248537.432
+    'REQUEST_TIME' => 1478248537
+]
+2016-11-04 08:35:39 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\UsersController->actionLists0()
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+The SQL being executed was: SELECT * FROM `rec_user` WHERE `status`=1' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\UsersController->actionLists0()
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => HY093
+    [1] => 0
+)
+
+2016-11-04 08:35:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53104'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248539.202
+    'REQUEST_TIME' => 1478248539
+]
+2016-11-04 08:38:14 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator '1' requires two operands.' in C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php:1381
+Stack trace:
+#0 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(1011): yii\db\QueryBuilder->buildSimpleCondition('1', Array, '<span class="st...')
+#1 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(815): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\QueryBuilder.php(98): yii\db\QueryBuilder->buildWhere(Array, '<span class="st...')
+#3 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(314): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#4 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(210): yii\db\ActiveQuery->createCommand(NULL)
+#5 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 C:\Users\Administrator\Desktop\recruit\admin(YII)\controllers\UsersController.php(12): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\UsersController->actionLists0()
+#8 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lists0', Array)
+#11 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#12 C:\Users\Administrator\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Administrator\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-11-04 08:38:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    'ace_settings' => '{\"sidebar-collapsed\":-1}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.zhaopin.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'ace.settings=%7B%22sidebar-collapsed%22%3A-1%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.5.38'
+    'SERVER_NAME' => 'www.zhaopin.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53401'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1478248694.321
+    'REQUEST_TIME' => 1478248694
+]
