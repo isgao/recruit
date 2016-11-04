@@ -325,10 +325,29 @@
 						</li>
 
 						<li>
-							<a href="gallery.html">
-								<i class="icon-picture"></i>
-								<span class="menu-text"> 后台管理员管理 </span>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-edit"></i>
+								<span class="menu-text"> 管理员管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
 							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="index.php?r=admin/index">
+										<i class="icon-double-angle-right"></i>
+										管理员列表
+									</a>
+								</li>
+
+								<li>
+									<a href="index.php?r=admin/list">
+										<i class="icon-double-angle-right"></i>
+										管理员添加
+									</a>
+								</li>
+
+							</ul>
 						</li>
 
 						<li>
