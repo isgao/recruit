@@ -24,7 +24,8 @@
     <body>
         <div class="page-container">
             <h1>Login</h1>
-            <form action="" method="post">
+            <form action="index.php?r=login/welcomed" method="post">
+            <input type="hidden" name="_csrf" id="_csrf" value="<?= Yii::$app->request->csrfToken?>"/>
                 <input type="text" name="username" class="username" placeholder="Username">
                 <input type="password" name="password" class="password" placeholder="Password">
                 <button type="submit">Sign me in</button>
