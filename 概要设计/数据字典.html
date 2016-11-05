@@ -4,7 +4,7 @@
 <head>
 	<title>recruit</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="date" content="Fri, 04 Nov 2016 09:08:39 +0800">
+	<meta name="date" content="Sat, 05 Nov 2016 09:27:38 +0800">
 	<meta name="generator" content="MySQL-Front 5.3  (Build 4.234)">
 	<style type="text/css"><!--
 		body {font-family: Arial,Helvetica,sans-serif; font-size: 12px;}
@@ -29,6 +29,21 @@
 </head>
 <body>
 <h1 class="DatabaseTitle">数据库: recruit</h1>
+<h2>表格: rec_admin</h2>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="rec_admin" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>admin_id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="rec_admin" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">admin_id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>username</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>password</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>status</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>add_time</td><td>datetime</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+</table><br>
 <h2>表格: rec_areas</h2>
 <p>备注: 地区信息</p>
 <h3>索引:</h3>
@@ -74,8 +89,8 @@
 	<tr class="Structure"><td>logo</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>site_url</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>city</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>scale_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>规模ID</td>	</tr>
 	<tr class="Structure"><td>period_id</td><td>smallint(2)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>发展阶段（融资）ID</td>	</tr>
-	<tr class="Structure"><td>investor_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>投资机构ID</td>	</tr>
 	<tr class="Structure"><td>brief_intro</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>intro</td><td>text</td><td>是</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>status</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
@@ -111,6 +126,7 @@
 <table border="0" cellspacing="0" summary="rec_education" class="TableObject">
 	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
 	<tr class="Structure"><td class="PrimaryKey">edu_id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>r_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>简历ID</td>	</tr>
 	<tr class="Structure"><td>school_name</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>major</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>专业</td>	</tr>
 	<tr class="Structure"><td>degree</td><td>char(10)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>学历 1大专 2本科 3硕士 4博士</td>	</tr>
@@ -130,6 +146,7 @@
 	<tr class="Structure"><td>name</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 </table><br>
 <h2>表格: rec_founder</h2>
+<p>备注: 创始团队</p>
 <h3>索引:</h3>
 <table border="0" cellspacing="0" summary="rec_founder" class="TableObject">
 	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
@@ -139,6 +156,7 @@
 <table border="0" cellspacing="0" summary="rec_founder" class="TableObject">
 	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
 	<tr class="Structure"><td class="PrimaryKey">founder_id</td><td>smallint(8)</td><td>否</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>company_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>公司ID</td>	</tr>
 	<tr class="Structure"><td>name</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>position</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>site_url</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
@@ -154,6 +172,7 @@
 <table border="0" cellspacing="0" summary="rec_internship" class="TableObject">
 	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
 	<tr class="Structure"><td class="PrimaryKey">internship_id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>r_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>简历ID</td>	</tr>
 	<tr class="Structure"><td>company_name</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>logo</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>position</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
@@ -172,6 +191,7 @@
 <table border="0" cellspacing="0" summary="rec_investor" class="TableObject">
 	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
 	<tr class="Structure"><td class="PrimaryKey">investor_id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>company_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>公司ID</td>	</tr>
 	<tr class="Structure"><td>period_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>发展阶段（融资类型）ID</td>	</tr>
 	<tr class="Structure"><td>name</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 </table><br>
@@ -239,6 +259,7 @@
 <table border="0" cellspacing="0" summary="rec_product" class="TableObject">
 	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
 	<tr class="Structure"><td class="PrimaryKey">product_id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>company_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>公司ID</td>	</tr>
 	<tr class="Structure"><td>poster</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>海报</td>	</tr>
 	<tr class="Structure"><td>name</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>site_url</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
@@ -255,6 +276,7 @@
 <table border="0" cellspacing="0" summary="rec_project" class="TableObject">
 	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
 	<tr class="Structure"><td class="PrimaryKey">project_id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>r_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>简历ID</td>	</tr>
 	<tr class="Structure"><td>name</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>site_url</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>项目链接</td>	</tr>
 	<tr class="Structure"><td>job_duty</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>项目所负职责</td>	</tr>
@@ -274,11 +296,6 @@
 	<tr class="Structure"><td class="PrimaryKey">r_id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>u_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>position_type</td><td>tinyint(1)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>职位特性 0兼职 1全职 2实习</td>	</tr>
-	<tr class="Structure"><td>works_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>作品ID</td>	</tr>
-	<tr class="Structure"><td>skill_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>技能ID</td>	</tr>
-	<tr class="Structure"><td>internship_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>实习经历ID</td>	</tr>
-	<tr class="Structure"><td>education_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>受教育经历ID</td>	</tr>
-	<tr class="Structure"><td>project_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>项目经验ID</td>	</tr>
 	<tr class="Structure"><td>position</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>求职岗位</td>	</tr>
 	<tr class="Structure"><td>position_city</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>salary_id</td><td>tinyint(1)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>薪水ID</td>	</tr>
@@ -286,6 +303,11 @@
 	<tr class="Structure"><td>resume_status</td><td>tinyint(1)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>简历状态 0未投递 1已投递 2查看中 3通过筛选 4面试 5不合适</td>	</tr>
 	<tr class="Structure"><td>user_status</td><td>tinyint(1)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>求职者状态    0目前离职，可入岗        1在职，考虑跳槽       2不想找工作   3应届生</td>	</tr>
 	<tr class="Structure"><td>intro</td><td>text</td><td>是</td><td>&nbsp;</td><td>&nbsp;</td><td>自己介绍描述</td>	</tr>
+</table><br>
+<h3>约束:</h3>
+<table border="0" cellspacing="0" summary="rec_resume" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th></tr>
+	<tr><th>rec_resume_ibfk_1</th><td>u_id -&gt; rec_user.u_id</td><td></td></tr>
 </table><br>
 <h2>表格: rec_salary</h2>
 <p>备注: 薪水表</p>
@@ -328,6 +350,7 @@
 <table border="0" cellspacing="0" summary="rec_skill" class="TableObject">
 	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
 	<tr class="Structure"><td class="PrimaryKey">skill_id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>r_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>简历ID</td>	</tr>
 	<tr class="Structure"><td>name</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>level</td><td>tinyint(1)</td><td>是</td><td>0</td><td>&nbsp;</td><td>技能强度   0了解    1熟悉    2掌握    3精通    4专家</td>	</tr>
 </table><br>
@@ -399,6 +422,7 @@
 <table border="0" cellspacing="0" summary="rec_works" class="TableObject">
 	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
 	<tr class="Structure"><td class="PrimaryKey">works_id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>r_id</td><td>int(11)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>简历ID</td>	</tr>
 	<tr class="Structure"><td>title</td><td>varchar(100)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>site_url</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
 	<tr class="Structure"><td>images</td><td>varchar(255)</td><td>是</td><td>&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
