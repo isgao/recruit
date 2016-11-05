@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+header("Content-Type:text/html;charset=UTF-8");
 use Yii;
 use yii\web\Controller;
 use app\models\Rec_admin;
@@ -19,7 +20,6 @@ class LoginController extends Controller
     public function actionWelcomed()
     {
     	// echo 1;
-    	header("Content-Type:text/html;charset=UTF-8");
     	$request = \Yii::$app->request;
     	$username = $request->post('username');
     	$pwd = MD5($request->post('password'));

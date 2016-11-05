@@ -168,15 +168,8 @@
                                         <i class="icon-double-angle-right"></i>用户列表
                                     </a>
                                 </li>
-
                                 <li>
                                     <a href="index.php?r=users/lists1">
-                                        <i class="icon-double-angle-right"></i>已锁定的用户
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="index.php?r=users/lists2">
                                         <i class="icon-double-angle-right"></i>用户回收站
                                     </a>
                                 </li>

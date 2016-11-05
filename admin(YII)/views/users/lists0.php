@@ -33,7 +33,6 @@
     <!-- inline styles related to this page -->
 
     <!-- ace settings handler -->
-
     <script src="assets/js/ace-extra.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -168,13 +167,6 @@
                                 <i class="icon-double-angle-right"></i>用户列表
                             </a>
                         </li>
-
-<!--                        <li>-->
-<!--                            <a href="index.php?r=users/lists1">-->
-<!--                                <i class="icon-double-angle-right"></i>已锁定的用户-->
-<!--                            </a>-->
-<!--                        </li>-->
-
                         <li>
                             <a href="index.php?r=users/lists1">
                                 <i class="icon-double-angle-right"></i>用户回收站
@@ -285,7 +277,6 @@
                                 简单 &amp; 动态
                             </a>
                         </li>
-
                         <li>
                             <a href="jqgrid.html">
                                 <i class="icon-double-angle-right"></i>
@@ -342,10 +333,29 @@
                 </li>
 
                 <li>
-                    <a href="gallery.html">
-                        <i class="icon-picture"></i>
-                        <span class="menu-text"> 后台管理员管理 </span>
+                    <a href="#" class="dropdown-toggle">
+                        <i class="icon-edit"></i>
+                        <span class="menu-text"> 管理员管理 </span>
+
+                        <b class="arrow icon-angle-down"></b>
                     </a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="index.php?r=admin/index">
+                                <i class="icon-double-angle-right"></i>
+                                管理员列表
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="index.php?r=admin/add">
+                                <i class="icon-double-angle-right"></i>
+                                管理员添加
+                            </a>
+                        </li>
+
+                    </ul>
                 </li>
 
                 <li>
