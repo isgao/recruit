@@ -68,5 +68,26 @@ class AdminController extends Controller
     		return $this->redirect('index.php?r=admin/index');
     	}
 	}
+
+	public function actionUpdate()
+    {
+    	header("Content-Type:text/html;charset=UTF-8");
+        $request = \Yii::$app->request;
+        $id = $request->get('id');
+        $uname = $request->get('content');
+        // var_dump($uname);die;
+        new Rec_admin;
+        $gai = Rec_admin::find()->where(['admin_id'=>$id])->one();
+        $gai->username=$uname;
+        $ress = $gai->save();
+
+        if($ress)
+        {
+            echo 1;
+        }else
+        {
+            echo -1;
+        }
+    }
 }
 ?>

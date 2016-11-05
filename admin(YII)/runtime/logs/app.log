@@ -6982,3 +6982,2185 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478254892.624
     'REQUEST_TIME' => 1478254892
 ]
+2016-11-04 18:32:04 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 28132 bytes' 
+
+in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\lenovo...', 88, Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\lenovo...', Array)
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-04 18:32:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '51716'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/index'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/index'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478255523.189
+    'REQUEST_TIME' => 1478255523
+]
+2016-11-04 18:32:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "users/lists0".' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 18:32:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '51716'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478255526.462
+    'REQUEST_TIME' => 1478255526
+]
+2016-11-04 18:40:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "users/lists1".' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists1', Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 18:40:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists1'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52097'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists1'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=users/lists1'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478256004.618
+    'REQUEST_TIME' => 1478256004
+]
+2016-11-04 18:40:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "users/lists0".' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/lists0', Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 18:40:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'users/lists0'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '52098'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users/lists0'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=users/lists0'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478256007.141
+    'REQUEST_TIME' => 1478256007
+]
+2016-11-04 19:03:39 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='1'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:03:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '1'
+    'content' => '王五'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53140'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257418.383
+    'REQUEST_TIME' => 1478257418
+]
+2016-11-04 19:03:41 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='1'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:03:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '1'
+    'content' => '王五'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53160'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257420.205
+    'REQUEST_TIME' => 1478257420
+]
+2016-11-04 19:03:42 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='1'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:03:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '1'
+    'content' => '王五'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53163'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257421.323
+    'REQUEST_TIME' => 1478257421
+]
+2016-11-04 19:03:43 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='3'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:03:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '3'
+    'content' => '李四'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53166'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=3&content=%E6%9D%8E%E5%9B%9B'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=3&content=%E6%9D%8E%E5%9B%9B'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257422.846
+    'REQUEST_TIME' => 1478257422
+]
+2016-11-04 19:03:45 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='3'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:03:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '3'
+    'content' => '李四'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b794cc648d959382cfa4e83036bfcfbfaa34776bf64536e20dc1ccadc5d757b7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226CncuH3Fajz30qBEd0w-Zb-OB6-Fpyez%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53171'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=3&content=%E6%9D%8E%E5%9B%9B'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=3&content=%E6%9D%8E%E5%9B%9B'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257423.983
+    'REQUEST_TIME' => 1478257423
+]
+2016-11-04 19:04:03 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='1'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:04:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '1'
+    'content' => '王五'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53218'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257442.594
+    'REQUEST_TIME' => 1478257442
+]
+2016-11-04 19:07:34 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='1'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:07:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '1'
+    'content' => '王五'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53289'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257653.498
+    'REQUEST_TIME' => 1478257653
+]
+2016-11-04 19:07:36 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='1'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:07:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '1'
+    'content' => '王五'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53295'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=1&content=%E7%8E%8B%E4%BA%94'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257655.431
+    'REQUEST_TIME' => 1478257655
+]
+2016-11-04 19:08:07 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='3'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:08:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '3'
+    'content' => '王五'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53309'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=3&content=%E7%8E%8B%E4%BA%94'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=3&content=%E7%8E%8B%E4%BA%94'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257686.685
+    'REQUEST_TIME' => 1478257686
+]
+2016-11-04 19:08:32 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `rec_admin` WHERE `id`='3'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\AdminController.php(79): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\AdminController->actionUpdate()
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-04 19:08:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '3'
+    'content' => '王五'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=admin/index'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53330'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/update&id=3&content=%E7%8E%8B%E4%BA%94'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/update&id=3&content=%E7%8E%8B%E4%BA%94'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257711.569
+    'REQUEST_TIME' => 1478257711
+]
+2016-11-04 19:12:16 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: login/lgoin' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('lgoin', Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/lgoin', Array)
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-04 19:12:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/lgoin'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '53386'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/lgoin'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/lgoin'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478257936.709
+    'REQUEST_TIME' => 1478257936
+]
+2016-11-04 20:13:39 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 20:13:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/welcomed'
+]
+
+$_POST = [
+    '_csrf' => 'dy02RHNzSXAaRwACMEo.ST5KBQkrCXs9Qxh4DhcgfBNAFXcGQQocSA=='
+    'username' => '张三'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '107'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '55123'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/welcomed'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/welcomed'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478261618.468
+    'REQUEST_TIME' => 1478261618
+]
+2016-11-04 20:14:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 20:14:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/welcomed'
+]
+
+$_POST = [
+    '_csrf' => 'b1FCbzc5N2gCO3QpdABAUSY2cSJvQwUlW2QMJVNqAgtYaQMtBUBiUA=='
+    'username' => '张三'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '107'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '55134'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/welcomed'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/welcomed'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478261646.692
+    'REQUEST_TIME' => 1478261646
+]
+2016-11-04 20:14:23 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 20:14:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '55142'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/login'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478261663.417
+    'REQUEST_TIME' => 1478261663
+]
+2016-11-04 20:34:27 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 20:34:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/welcomed'
+]
+
+$_POST = [
+    '_csrf' => 'MXBLd05JLXRcGn0xDXBaTXgXeDoWMx85BUUFPSoaGBcGSAo1fDB4TA=='
+    'username' => '张三'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '107'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '55950'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/welcomed'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/welcomed'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478262866.656
+    'REQUEST_TIME' => 1478262866
+]
+2016-11-04 20:34:44 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: SESSION_SET' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:34
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php(34): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 34, Array)
+#1 [internal function]: app\controllers\LoginController->actionWelcomed()
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('welcomed', Array)
+#5 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/welcomed', Array)
+#6 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2016-11-04 20:34:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/welcomed'
+]
+
+$_POST = [
+    '_csrf' => 'MXBLd05JLXRcGn0xDXBaTXgXeDoWMx85BUUFPSoaGBcGSAo1fDB4TA=='
+    'username' => '张三'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '107'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '55958'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/welcomed'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/welcomed'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478262883.276
+    'REQUEST_TIME' => 1478262883
+]
+2016-11-04 20:40:50 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 20:40:49 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][info][application] $_GET = [
+    'r' => 'login/welcomed'
+]
+
+$_POST = [
+    '_csrf' => 'R3dNeDVBNjIqHXs.dnhBCw4QfjVtOwR/c0IDMlESA1FwTww6BzhjCg=='
+    'username' => '张三'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => '张三'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '109'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56074'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/welcomed'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/welcomed'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478263249.877
+    'REQUEST_TIME' => 1478263249
+]
+2016-11-04 20:42:04 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 20:42:03 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][info][application] $_GET = [
+    'r' => 'login/welcomed'
+]
+
+$_POST = [
+    '_csrf' => 'd3VVVFJPcWsaH2MSEXYGUj4SZhkKNUMmQ0AbHjYcRAhATRQWYDYkUw=='
+    'username' => '张三'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+    'PHPSESSID' => 'fisk71ue4r8l34v87f99m9mck3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => '张三'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D; PHPSESSID=fisk71ue4r8l34v87f99m9mck3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '107'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56099'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/welcomed'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/welcomed'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478263323.316
+    'REQUEST_TIME' => 1478263323
+]
+2016-11-04 20:49:40 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 20:49:39 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][info][application] $_GET = [
+    'r' => 'login/welcomed'
+]
+
+$_POST = [
+    '_csrf' => 'M2RwY1c3WjheDkYlFA4tAXoDQy4PTWh1B1E.KTNkb1sEXDEhZU4PAA=='
+    'username' => '张三'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+    'PHPSESSID' => 'fisk71ue4r8l34v87f99m9mck3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => '张三'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D; PHPSESSID=fisk71ue4r8l34v87f99m9mck3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '107'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56232'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/welcomed'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/welcomed'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478263779.483
+    'REQUEST_TIME' => 1478263779
+]
+2016-11-04 20:50:05 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 20:50:04 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][info][application] $_GET = [
+    'r' => 'login/welcomed'
+]
+
+$_POST = [
+    '_csrf' => 'M2RwY1c3WjheDkYlFA4tAXoDQy4PTWh1B1E.KTNkb1sEXDEhZU4PAA=='
+    'username' => '张三'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+    'PHPSESSID' => 'fisk71ue4r8l34v87f99m9mck3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => '张三'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D; PHPSESSID=fisk71ue4r8l34v87f99m9mck3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '107'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56247'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/welcomed'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/welcomed'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478263804.481
+    'REQUEST_TIME' => 1478263804
+]
+2016-11-04 20:51:55 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-04 20:51:54 [127.0.0.1][-][fisk71ue4r8l34v87f99m9mck3][info][application] $_GET = [
+    'r' => 'login/welcomed'
+]
+
+$_POST = [
+    '_csrf' => 'RGt4VTRNWnEpAU4Td3QtSA0MSxhsN2g8cF42H1AebxJzUzkXBjQPSQ=='
+    'username' => '张三'
+    'password' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+    'PHPSESSID' => 'fisk71ue4r8l34v87f99m9mck3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => '张三'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D; PHPSESSID=fisk71ue4r8l34v87f99m9mck3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '107'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56279'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/welcomed'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/welcomed'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478263914.801
+    'REQUEST_TIME' => 1478263914
+]
+2016-11-04 20:57:43 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: session' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\views\login\index.php:70
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\views\login\index.php(70): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 70, Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\lenovo...', Array)
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\lenovo...', Array, Object(app\controllers\LoginController))
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\LoginController))
+#5 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php(13): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\LoginController->actionIndex()
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/index', Array)
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-11-04 20:57:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+    'PHPSESSID' => 'fisk71ue4r8l34v87f99m9mck3'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D; PHPSESSID=fisk71ue4r8l34v87f99m9mck3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/index'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478264263.872
+    'REQUEST_TIME' => 1478264263
+]
+2016-11-04 20:58:20 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: uname' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\views\login\index.php:70
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\views\login\index.php(70): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 70, Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\lenovo...', Array)
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\lenovo...', Array, Object(app\controllers\LoginController))
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\LoginController))
+#5 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php(13): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\LoginController->actionIndex()
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/index', Array)
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-11-04 20:58:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+    'PHPSESSID' => 'fisk71ue4r8l34v87f99m9mck3'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D; PHPSESSID=fisk71ue4r8l34v87f99m9mck3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56420'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/index'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478264300.115
+    'REQUEST_TIME' => 1478264300
+]
+2016-11-04 20:59:01 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: _SESSION' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\views\login\index.php:70
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\views\login\index.php(70): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 70, Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\lenovo...', Array)
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\lenovo...', Array, Object(app\controllers\LoginController))
+#4 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\LoginController))
+#5 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\controllers\LoginController.php(13): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\LoginController->actionIndex()
+#7 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/index', Array)
+#11 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-11-04 20:59:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8\";}'
+    'PHPSESSID' => 'fisk71ue4r8l34v87f99m9mck3'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_COOKIE' => '_csrf=f661e8df4435be13e88b312f3ce5f1486879fc1e88f2b56e242cdd70cb3d5626a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mj6FC9w9Ig3MXz2M45NJdS5c78AB2yU8%22%3B%7D; PHPSESSID=fisk71ue4r8l34v87f99m9mck3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56434'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/index'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478264341.419
+    'REQUEST_TIME' => 1478264341
+]
+2016-11-05 08:22:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-05 08:22:25 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '55376'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin(YII)/web/'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478305345.69
+    'REQUEST_TIME' => 1478305345
+]
+2016-11-05 08:22:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/login' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/login', Array)
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-05 08:22:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/login'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '55419'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/login'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=admin/login'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478305369.787
+    'REQUEST_TIME' => 1478305369
+]
+2016-11-05 09:00:41 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=', expecting ',' or ')'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\assets\img\head.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-05 09:00:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '10cef7b84228467bc77be34b1675803d2792c02b30a72502ffcea665b6e99099a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"r8ZOHbHUlNLmCPjmF4Ca2R0omT0CM7pN\";}'
+    'PHPSESSID' => '4g7omlr6qs98ct9p1ngudqn0k2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=10cef7b84228467bc77be34b1675803d2792c02b30a72502ffcea665b6e99099a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22r8ZOHbHUlNLmCPjmF4Ca2R0omT0CM7pN%22%3B%7D; PHPSESSID=4g7omlr6qs98ct9p1ngudqn0k2'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56536'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/index'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478307641.68
+    'REQUEST_TIME' => 1478307641
+]
+2016-11-05 09:03:19 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')'' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\assets\img\head.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-05 09:03:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '10cef7b84228467bc77be34b1675803d2792c02b30a72502ffcea665b6e99099a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"r8ZOHbHUlNLmCPjmF4Ca2R0omT0CM7pN\";}'
+    'PHPSESSID' => '4g7omlr6qs98ct9p1ngudqn0k2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://project.cn/admin(YII)/web/index.php?r=login/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=10cef7b84228467bc77be34b1675803d2792c02b30a72502ffcea665b6e99099a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22r8ZOHbHUlNLmCPjmF4Ca2R0omT0CM7pN%22%3B%7D; PHPSESSID=4g7omlr6qs98ct9p1ngudqn0k2'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56761'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/index'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478307799.371
+    'REQUEST_TIME' => 1478307799
+]
+2016-11-05 09:05:09 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\assets\img\head.php:31
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-05 09:05:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '10cef7b84228467bc77be34b1675803d2792c02b30a72502ffcea665b6e99099a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"r8ZOHbHUlNLmCPjmF4Ca2R0omT0CM7pN\";}'
+    'PHPSESSID' => '4g7omlr6qs98ct9p1ngudqn0k2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2902.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=10cef7b84228467bc77be34b1675803d2792c02b30a72502ffcea665b6e99099a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22r8ZOHbHUlNLmCPjmF4Ca2R0omT0CM7pN%22%3B%7D; PHPSESSID=4g7omlr6qs98ct9p1ngudqn0k2'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '56806'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_URI' => '/admin(YII)/web/index.php?r=login/index'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478307909.488
+    'REQUEST_TIME' => 1478307909
+]
