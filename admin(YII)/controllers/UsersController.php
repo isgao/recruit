@@ -80,7 +80,7 @@ class UsersController extends Controller
         if($res){
             return $this->redirect('index.php?r=users/lists1');
         }else{
-            echo "拉出失败";
+            echo "删除失败";
         }
     }
 
