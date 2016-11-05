@@ -27,7 +27,7 @@ class LoginController extends Controller
     	// var_dump($pwd);
 
     	$res = new Rec_admin;
-    	$check = $res::find()->asArray()->one();
+    	$check = $res::find()->where(['username'=>$username])->asArray()->one();
     	// var_dump($check);
     	if($check['username'] == $username && $check['password'] == $pwd)
     	{
