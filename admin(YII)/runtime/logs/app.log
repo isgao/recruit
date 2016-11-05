@@ -9822,3 +9822,111 @@ $_SERVER = [
     'REQUEST_TIME' => 1478307909
 >>>>>>> c80f0717184bc1cddd23da22a5826beeffdfedd1
 ]
+2016-11-05 10:00:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-05 10:00:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '42b4e6ad573278408444550cb50a114080c91b3e7a5cb4b7ea7bc2a470fa5264a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BLk93LDNsBPo4tEe36o-fbFodbJ3sS4M\";}'
+    'PHPSESSID' => 'l1o0g505ceu16ducej48eajq12'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=42b4e6ad573278408444550cb50a114080c91b3e7a5cb4b7ea7bc2a470fa5264a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BLk93LDNsBPo4tEe36o-fbFodbJ3sS4M%22%3B%7D; PHPSESSID=l1o0g505ceu16ducej48eajq12'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '57829'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin(YII)/web/index.php?'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478311247.901
+    'REQUEST_TIME' => 1478311247
+]
+2016-11-05 10:00:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\lenovo-pc\Desktop\recruit\admin(YII)\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-05 10:00:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '42b4e6ad573278408444550cb50a114080c91b3e7a5cb4b7ea7bc2a470fa5264a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BLk93LDNsBPo4tEe36o-fbFodbJ3sS4M\";}'
+    'PHPSESSID' => 'l1o0g505ceu16ducej48eajq12'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'project.cn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=42b4e6ad573278408444550cb50a114080c91b3e7a5cb4b7ea7bc2a470fa5264a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BLk93LDNsBPo4tEe36o-fbFodbJ3sS4M%22%3B%7D; PHPSESSID=l1o0g505ceu16ducej48eajq12'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files\\nodejs\\;E:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\lenovo-pc\\AppData\\Roaming\\npm;C:\\Users\\lenovo-pc\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'project.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/lenovo-pc/Desktop/recruit'
+    'SERVER_ADMIN' => 'webmaster@163.com'
+    'SCRIPT_FILENAME' => 'C:/Users/lenovo-pc/Desktop/recruit/admin(YII)/web/index.php'
+    'REMOTE_PORT' => '57830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin(YII)/web/index.php'
+    'SCRIPT_NAME' => '/admin(YII)/web/index.php'
+    'PHP_SELF' => '/admin(YII)/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478311249.663
+    'REQUEST_TIME' => 1478311249
+]
