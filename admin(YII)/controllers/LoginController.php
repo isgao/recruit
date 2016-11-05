@@ -46,4 +46,12 @@ class LoginController extends Controller
     	}
     }
 
+    public function actionExit()
+    {
+         $session = Yii::$app->session;
+          unset($session['username']);
+          return $this->redirect('index.php?r=login/login');
+
+    }
+
 }
