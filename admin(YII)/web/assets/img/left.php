@@ -34,12 +34,14 @@
             </div><!-- #sidebar-shortcuts -->
 
             <ul class="nav nav-list">
+
                 <li class="active">
                     <a href="index.html">
                         <i class="icon-dashboard"></i>
                         <span class="menu-text"> 网站操作 </span>
                     </a>
                 </li>
+
                 <li>
                     <a href="#" class="dropdown-toggle">
                         <i class="icon-text-width"></i>
@@ -60,6 +62,8 @@
                         </li>
                     </ul>
                 </li>
+
+
                 <li>
                     <a href="#" class="dropdown-toggle">
                         <i class="icon-desktop"></i>
@@ -68,59 +72,6 @@
                     </a>
 
                     <ul class="submenu">
-                        <li>
-                            <a href="elements.html">
-                                <i class="icon-double-angle-right"></i>
-                                组件
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="buttons.html">
-                                <i class="icon-double-angle-right"></i>
-                                按钮 &amp; 图表
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="treeview.html">
-                                <i class="icon-double-angle-right"></i>
-                                树菜单
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="jquery-ui.html">
-                                <i class="icon-double-angle-right"></i>
-                                jQuery UI
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="nestable-list.html">
-                                <i class="icon-double-angle-right"></i>
-                                可拖拽列表
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="dropdown-toggle">
-                                <i class="icon-double-angle-right"></i>
-
-                                三级菜单
-                                <b class="arrow icon-angle-down"></b>
-							</a>
-
-						</li>
-
-						<li>
-							<a href="#" class="dropdown-toggle">
-								<i class="icon-desktop"></i>
-								<span class="menu-text"> 公司管理 </span>
-								<b class="arrow icon-angle-down"></b>
-							</a>
-
-							<ul class="submenu">
 								<li>
 									<a href="elements.html">
 										<i class="icon-double-angle-right"></i>
@@ -199,6 +150,7 @@
 									</ul>
 								</li>
 							</ul>
+<<<<<<< HEAD
 						</li>
 
 						<li>
@@ -363,7 +315,10 @@
                             </ul>
                         </li>
                     </ul>
+=======
+>>>>>>> 119e413d7e220d1ce6b247193c2f3a154cf36c75
                 </li>
+
 
                 <li>
                             <a href="#" class="dropdown-toggle">
@@ -413,32 +368,12 @@
 
                     <ul class="submenu">
                         <li>
-                            <a href="form-elements.html">
+                            <a href="index.php?r=resume/show">
                                 <i class="icon-double-angle-right"></i>
-                                表单组件
+                                简历列表
                             </a>
                         </li>
 
-                        <li>
-                            <a href="form-wizard.html">
-                                <i class="icon-double-angle-right"></i>
-                                向导提示 &amp; 验证
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="wysiwyg.html">
-                                <i class="icon-double-angle-right"></i>
-                                编辑器
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="dropzone.html">
-                                <i class="icon-double-angle-right"></i>
-                                文件上传
-                            </a>
-                        </li>
                     </ul>
                 </li>
 
@@ -449,7 +384,7 @@
                     </a>
                 </li>
 
-                                        <li>
+                <li>
                             <a href="#" class="dropdown-toggle">
                                 <i class="icon-edit"></i>
                                 <span class="menu-text"> 管理员管理 </span>
@@ -473,7 +408,7 @@
                                 </li>
 
                             </ul>
-                        </li>
+                     </li>
 
                 <li>
                     <a href="#" class="dropdown-toggle">
@@ -539,3 +474,23 @@
                 try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
             </script>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
