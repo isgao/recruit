@@ -203,31 +203,6 @@
 
 						<li>
 							<a href="#" class="dropdown-toggle">
-								<i class="icon-list"></i>
-								<span class="menu-text"> 岗位管理 </span>
-
-								<b class="arrow icon-angle-down"></b>
-							</a>
-
-							<ul class="submenu">
-								<li>
-									<a href="tables.html">
-										<i class="icon-double-angle-right"></i>
-										简单 &amp; 动态
-									</a>
-								</li>
-
-								<li>
-									<a href="jqgrid.html">
-										<i class="icon-double-angle-right"></i>
-										jqGrid plugin
-									</a>
-								</li>
-							</ul>
-						</li>
-
-						<li>
-							<a href="#" class="dropdown-toggle">
 								<i class="icon-edit"></i>
 								<span class="menu-text"> 简历管理 </span>
 
@@ -391,29 +366,42 @@
                 </li>
 
                 <li>
-                    <a href="#" class="dropdown-toggle">
-                        <i class="icon-list"></i>
-                        <span class="menu-text"> 岗位管理 </span>
+                            <a href="#" class="dropdown-toggle">
+                                <i class="icon-list"></i>
+                                <span class="menu-text"> 岗位管理 </span>
 
-                        <b class="arrow icon-angle-down"></b>
-                    </a>
-
-                    <ul class="submenu">
-                        <li>
-                            <a href="tables.html">
-                                <i class="icon-double-angle-right"></i>
-                                简单 &amp; 动态
+                                <b class="arrow icon-angle-down"></b>
                             </a>
-                        </li>
 
-                        <li>
-                            <a href="jqgrid.html">
-                                <i class="icon-double-angle-right"></i>
-                                jqGrid plugin
-                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="index.php?r=position/list">
+                                        <i class="icon-double-angle-right"></i>
+                                        职位列表
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="index.php?r=position/add">
+                                        <i class="icon-double-angle-right"></i>
+                                        职位添加
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.php?r=experience/list">
+                                        <i class="icon-double-angle-right"></i>
+                                        工作经验列表
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="index.php?r=experience/add">
+                                        <i class="icon-double-angle-right"></i>
+                                        工作列表添加
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
-                    </ul>
-                </li>
 
                 <li>
                     <a href="#" class="dropdown-toggle">
