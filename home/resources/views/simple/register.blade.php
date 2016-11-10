@@ -10,10 +10,10 @@
               	<input type="radio" value="0" name="type" /> 
             </li>
             <li>
-           	           招人
+           	    招人
               	<input type="radio" value="1" name="type" /> 
             </li>
-        </ul> 
+        </ul>
     	<input type="text" id="email" name="email" tabindex="1" placeholder="请输入常用邮箱地址" />
         <span class="error" style="display:none;" id="beError"></span>
         <input type="password" id="password" name="password" tabindex="2" placeholder="请输入密码" />
