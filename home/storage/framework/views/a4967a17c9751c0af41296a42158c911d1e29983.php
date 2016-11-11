@@ -1,8 +1,8 @@
-﻿@extends('layouts.enter')
+﻿
 
-@section('title', '注册')
+<?php $__env->startSection('title', '注册'); ?>
 
-@section('form')
+<?php $__env->startSection('form'); ?>
 	<form id="loginForm">
 		<ul class="register_radio clearfix">
             <li>
@@ -27,14 +27,14 @@
         <input type="hidden" id="signature" name="signature" value=""/>
         <input type="hidden" id="timestamp" name="timestamp" value=""/>
     </form>
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('jump')
+<?php $__env->startSection('jump'); ?>
 	<div>已有拉勾帐号</div>
 	<a  href="login"  class="registor_now">直接登录</a>
-@endsection
+<?php $__env->stopSection(); ?>
              
-@section('script')
+<?php $__env->startSection('script'); ?>
     <script type="text/javascript">
     $(document).ready(function(e) {
     	$('.register_radio li input').click(function(e){
@@ -124,5 +124,7 @@
 	    	});
     });
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
 
+
+<?php echo $__env->make('layouts.enter', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

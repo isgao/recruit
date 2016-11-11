@@ -1,11 +1,12 @@
-﻿@extends('layouts.enter')
+﻿
 
-@section('title', '登录')
+<?php $__env->startSection('title', '登录'); ?>
 
 
-@section('form')
+<?php $__env->startSection('form'); ?>
 	<form id="loginForm" action="login_act" method="post">
-        {{csrf_field()}}
+        <?php echo e(csrf_field()); ?>
+
 		<input type="text" id="email" name="email" value="" tabindex="1" placeholder="请输入登录邮箱地址" />
 	  	<input type="password" id="password" name="password" tabindex="2" placeholder="请输入密码" />
 		<span class="error" style="display:none;" id="beError"></span>
@@ -13,20 +14,20 @@
 	    <a href="reset.html" class="fr" target="_blank">忘记密码？</a>
 	    
 		<input type="submit" id="submitLogin" value="登 &nbsp; &nbsp; 录" />
-		{{--<a style="color:#fff;" href="index.html" class="submitLogin" title="登 &nbsp; &nbsp; 录"/>登 &nbsp; &nbsp; 录</a>--}}
+		
 	    <input type="hidden" id="callback" name="callback" value=""/>
         <input type="hidden" id="authType" name="authType" value=""/>
         <input type="hidden" id="signature" name="signature" value=""/>
         <input type="hidden" id="timestamp" name="timestamp" value=""/>
 	</form>
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('jump')	
+<?php $__env->startSection('jump'); ?>	
 	<div>还没有拉勾帐号？</div>
 	<a  href="reg"  class="registor_now">立即注册</a>
-@endsection
+<?php $__env->stopSection(); ?>
 			    
-@section('script')
+<?php $__env->startSection('script'); ?>
 	<script type="text/javascript">
 	$(function(){
 		//验证表单
@@ -88,4 +89,6 @@
 			});
 	})
 	</script>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.enter', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

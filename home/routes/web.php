@@ -20,3 +20,4 @@ Route::get('/reg', function(){
 Route::get('/login', function(){
 	return view('simple.login');
 });
+Route::post('/login_act','LoginController@login_act');

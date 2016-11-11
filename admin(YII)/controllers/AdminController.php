@@ -13,7 +13,6 @@ class AdminController extends Controller
         $res = new Rec_admin;
 		$show = $res->find()->asArray()->all();
 		// var_dump($show);
-		
         return $this->render('index',['res'=>$show]);
 	}
 

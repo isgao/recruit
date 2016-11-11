@@ -6,7 +6,7 @@
     <link rel="alternate" media="handheld"  />
     <!-- end 云适配 -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>@yield('title')</title>
+    <title><?php echo $__env->yieldContent('title'); ?></title>
     <meta property="qc:admins" content="23635710066417756375" />
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -58,7 +58,7 @@
         
 
         <div id="container">
-            @yield('content')
+            <?php echo $__env->yieldContent('content'); ?>
             <!--<div id="qrSide"><a></a></div> -->
             <!--<div id="loginToolBar">
                 <div>
