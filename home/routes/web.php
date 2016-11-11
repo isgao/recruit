@@ -16,6 +16,8 @@ Route::get('/', 'SiteController@index');
 Route::get('/reg', function(){
 	return view('simple.register');
 });
+//注册动作
+Route::post('/reg_act', 'SimpleController@reg_act');
 //登录页面
 Route::get('/login', function(){
 	return view('simple.login');
