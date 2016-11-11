@@ -4,6 +4,7 @@
 
 @section('form')
 	<form id="loginForm">
+		{{ csrf_field() }}
 		<ul class="register_radio clearfix">
             <li>
             	找工作
@@ -97,7 +98,7 @@
 			    		var type =$('input[type="radio"]:checked',form).val();
 			    		var email =$('#email').val();
 			    		var password =$('#password').val();
-			    		var resubmitToken = $('#resubmitToken').val();
+			    		var resubmitToken = $("input[name='_token']").val();
 			    		
 			    		var callback = $('#callback').val();
 			    		var authType = $('#authType').val();
@@ -108,11 +109,11 @@
 
 			            $.ajax({
 			            	type:'POST',
-			            	data: {email:email,password:password,type:type,resubmitToken:resubmitToken, callback:callback, authType:authType, signature:signature, timestamp:timestamp},
-			            	url:ctx+'/user/register.json',
+			            	data: {email:email,password:password,type:type,_token:resubmitToken, callback:callback, authType:authType, signature:signature, timestamp:timestamp},
+			            	url:'{{action('SimpleController@reg_act')}}',
 			            	dataType:'json'
 			            }).done(function(result) {
-		            		$('#resubmitToken').val(result.resubmitToken);
+		            		$("input[name='_token']").val(result.resubmitToken);
 			            	if(result.success){
 			            		window.location.href=result.content;			            		
 			            	}else{
