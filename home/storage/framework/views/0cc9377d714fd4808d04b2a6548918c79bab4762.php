@@ -4,96 +4,61 @@
 
 <?php $__env->startSection('content'); ?>
 	<div id="sidebar">
+        <!--职位分类 start-->
 		<div class="mainNavs">
-			<div class="menu_box">
-				<div class="menu_main">
-					<h2>技术 <span></span></h2>				            					            		<a href="h/jobs/list_Java?labelWords=label">Java</a>
-					<a href="h/jobs/list_PHP?labelWords=label">PHP</a>
-					<a href="h/jobs/list_C?labelWords=label">C</a>
-					<a href="h/jobs/list_C++?labelWords=label">C++</a>
-					<a href="h/jobs/list_Android?labelWords=label">Android</a>
-					<a href="h/jobs/list_iOS?labelWords=label">iOS</a>
-					<a href="h/jobs/list_前端开发?labelWords=label">前端开发</a>
-					<a href="h/jobs/list_测试?labelWords=label">测试</a>
-					<a href="h/jobs/list_技术经理?labelWords=label">技术经理</a>
-					<a href="h/jobs/list_项目经理?labelWords=label">项目经理</a>
-					<a href="h/jobs/list_架构师?labelWords=label">架构师</a>
-				</div>
-				<div class="menu_sub dn">
-				   	<dl class="reset">
-				        <dt>
-				        	<a href="h/jobs/list_后端开发?labelWords=label"></a>
-				        </dt>
-					    <dd>
-					    <a href="h/jobs/list_Java?labelWords=label">Java</a>
-						<a href="h/jobs/list_C%2B%2B?labelWords=label">C++</a>
-						<a href="h/jobs/list_PHP?labelWords=label">PHP</a>
-						<a href="h/jobs/list_%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98?labelWords=label">数据挖掘</a>
-						<a href="h/jobs/list_C?labelWords=label">C</a>
-						<a href="h/jobs/list_C%23?labelWords=label">C#</a>
-						<a href="h/jobs/list_.NET?labelWords=label">.NET</a>
-						<a href="h/jobs/list_Hadoop?labelWords=label">Hadoop</a>
-						<a href="h/jobs/list_Python?labelWords=label">Python</a>
-						<a href="h/jobs/list_Delphi?labelWords=label">Delphi</a>
-						<a href="h/jobs/list_VB?labelWords=label">VB</a>
-						<a href="h/jobs/list_Perl?labelWords=label">Perl</a>
-						<a href="h/jobs/list_Ruby?labelWords=label">Ruby</a>
-						<a href="h/jobs/list_Node.js?labelWords=label">Node.js</a>
-						</dd>
-				    </dl>
-					<dl class="reset">
-				        <dt>
-				        	<a href="h/jobs/list_移动开发?labelWords=label"></a>
-				        </dt>
-					    <dd>
-						    <a href="h/jobs/list_HTML5?labelWords=label">HTML5</a>
-						    <a href="h/jobs/list_Android?labelWords=label">Android</a>
-						    <a href="h/jobs/list_iOS?labelWords=label">iOS</a>
-						    <a href="h/jobs/list_WP?labelWords=label">WP</a>
-						</dd>
-				    </dl>
-					<dl class="reset">
-				        <dt>
-				        	<a href="h/jobs/list_前端开发?labelWords=label"></a>
-				        </dt>
-					    <dd>
-						    <a href="h/jobs/list_web%E5%89%8D%E7%AB%AF?labelWords=label">web前端</a>
-						    <a href="h/jobs/list_Flash?labelWords=label">Flash</a>
-						    <a href="h/jobs/list_html5?labelWords=label">html5</a>
-						    <a href="h/jobs/list_JavaScript?labelWords=label">JavaScript</a>
-						    <a href="h/jobs/list_U3D?labelWords=label">U3D</a>
-						    <a href="h/jobs/list_COCOS2D-X?labelWords=label">COCOS2D-X</a>
-						</dd>
-				    </dl>						
-				</div>
-			</div>
+            <?php $firstCate = App\Classes\Api::run('getFirstCate');?>
+            <?php $__currentLoopData = $firstCate; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $k => $v): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+            <div class="menu_box">
+                <div class="menu_main">
+                    <h2><?php echo e($v->name); ?><span></span></h2>
+                    <?php $hotCate = App\Classes\Api::run('getHotCate');?>
+                    <?php $__currentLoopData = $hotCate; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $hotVal): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                        <a href="#"><?php echo e($hotVal->name); ?></a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                </div>
+                <div class="menu_sub dn" style="top: 0px;">
+                    <?php $secondCate = App\Classes\Api::run('getSecondCate',array('#parent_id#',$v->position_cate_id));?>
+                    <?php $__currentLoopData = $secondCate; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $kk => $vv): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                    <dl class="reset">
+                        <dt><a href="#"><?php echo e($vv->name); ?></a></dt>
+                        <?php $thirdCate = App\Classes\Api::run('getSecondCate',array('#parent_id#',$vv->position_cate_id));?>
+                        <dd>
+                            <?php $__currentLoopData = $thirdCate; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $kkk => $vvv): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                            <a href="#"><?php echo e($vvv->name); ?></a>
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                        </dd>
+                    </dl>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                </div>
+            </div>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
 		</div>
 		<a class="subscribe" href="subscribe.html" target="_blank">订阅职位</a>
+         <!--职位分类 end-->
 	</div>
     <div class="content">	
         <div id="search_box">
 			<form id="searchForm" name="searchForm" action="list.html" method="get">
-	        <ul id="searchType">
-    	        <li data-searchtype="1" class="type_selected">职位</li>
-    			<li data-searchtype="4">公司</li>
-    	    </ul>
-    <div class="searchtype_arrow"></div>
-    <input type="text" id="search_input" name = "kd"  tabindex="1" value=""  placeholder="请输入职位名称，如：产品经理"  />
-    <input type="hidden" name="spc" id="spcInput" value=""/>
-    <input type="hidden" name="pl" id="plInput" value=""/>
-    <input type="hidden" name="gj" id="gjInput" value=""/>
-    <input type="hidden" name="xl" id="xlInput" value=""/>
-    <input type="hidden" name="yx" id="yxInput" value=""/>
-    <input type="hidden" name="gx" id="gxInput" value="" />
-    <input type="hidden" name="st" id="stInput" value="" />
-    <input type="hidden" name="labelWords" id="labelWords" value="" />
-    <input type="hidden" name="lc" id="lc" value="" />
-    <input type="hidden" name="workAddress" id="workAddress" value=""/>
-            <input type="hidden" name="city" id="cityInput" value=""/>
-            <input type="submit" id="search_button" value="搜索" />
-			
-</form>
-</div>
+    	        <ul id="searchType">
+        	        <li data-searchtype="1" class="type_selected">职位</li>
+        			<li data-searchtype="4">公司</li>
+        	    </ul>
+                <div class="searchtype_arrow"></div>
+                <input type="text" id="search_input" name = "kd"  tabindex="1" value=""  placeholder="请输入职位名称，如：产品经理"  />
+                <input type="hidden" name="spc" id="spcInput" value=""/>
+                <input type="hidden" name="pl" id="plInput" value=""/>
+                <input type="hidden" name="gj" id="gjInput" value=""/>
+                <input type="hidden" name="xl" id="xlInput" value=""/>
+                <input type="hidden" name="yx" id="yxInput" value=""/>
+                <input type="hidden" name="gx" id="gxInput" value="" />
+                <input type="hidden" name="st" id="stInput" value="" />
+                <input type="hidden" name="labelWords" id="labelWords" value="" />
+                <input type="hidden" name="lc" id="lc" value="" />
+                <input type="hidden" name="workAddress" id="workAddress" value=""/>
+                <input type="hidden" name="city" id="cityInput" value=""/>
+                <input type="submit" id="search_button" value="搜索" />
+            </form>
+        </div>
 <style>
 .ui-autocomplete{width:488px;background:#fafafa !important;position: relative;z-index:10;border: 2px solid #91cebe;}
 .ui-autocomplete-category{font-size:16px;color:#999;width:50px;position: absolute;z-index:11; right: 0px;/*top: 6px; */text-align:center;border-top: 1px dashed #e5e5e5;padding:5px 0;}
@@ -101,19 +66,21 @@
 .ui-menu-item a{display:block;overflow:hidden;}
 </style>
 <script type="text/javascript" src="<?php echo e(URL::asset('style/js/search.min.js')); ?>"></script>
-<dl class="hotSearch">
-<dt>热门搜索：</dt>
-<dd><a href="list.htmlJava?labelWords=label&city=">Java</a></dd>
-<dd><a href="list.htmlPHP?labelWords=label&city=">PHP</a></dd>
-<dd><a href="list.htmlAndroid?labelWords=label&city=">Android</a></dd>
-<dd><a href="list.htmliOS?labelWords=label&city=">iOS</a></dd>
-<dd><a href="list.html前端?labelWords=label&city=">前端</a></dd>
-<dd><a href="list.html产品经理?labelWords=label&city=">产品经理</a></dd>
-<dd><a href="list.htmlUI?labelWords=label&city=">UI</a></dd>
-<dd><a href="list.html运营?labelWords=label&city=">运营</a></dd>
-<dd><a href="list.htmlBD?labelWords=label&city=">BD</a></dd>
-<dd><a href="list.html?gx=实习&city=">实习</a></dd>
-</dl>			
+        <dl class="hotSearch">
+            <dt>热门搜索：</dt>
+            <dd><a href="list.htmlJava?labelWords=label&city=">Java</a></dd>
+            <dd><a href="list.htmlPHP?labelWords=label&city=">PHP</a></dd>
+            <dd><a href="list.htmlAndroid?labelWords=label&city=">Android</a></dd>
+            <dd><a href="list.htmliOS?labelWords=label&city=">iOS</a></dd>
+            <dd><a href="list.html前端?labelWords=label&city=">前端</a></dd>
+            <dd><a href="list.html产品经理?labelWords=label&city=">产品经理</a></dd>
+            <dd><a href="list.htmlUI?labelWords=label&city=">UI</a></dd>
+            <dd><a href="list.html运营?labelWords=label&city=">运营</a></dd>
+            <dd><a href="list.htmlBD?labelWords=label&city=">BD</a></dd>
+            <dd><a href="list.html?gx=实习&city=">实习</a></dd>
+        </dl>
+
+        <!--轮播 start-->			
 		<div id="home_banner">
             <ul class="banner_bg">
             		                <li  class="banner_bg_1 current" >
@@ -125,7 +92,7 @@
                 	                <li  class="banner_bg_3" >
                     <a href="h/subject/s_xiamen.html?utm_source=DH__lagou&utm_medium=home&utm_campaign=xiamen" target="_blank"><img src="<?php echo e(URL::asset('style/images/d03110162390422bb97cebc7fd2ab586.jpg')); ?>" width="612" height="160" alt="出北京记——第一站厦门" /></a>
                 </li>
-                	            </ul>
+            </ul>
             <div class="banner_control">
                 <em></em> 
                 <ul class="thumbs">
@@ -143,8 +110,10 @@
                     </li>
                 </ul>
             </div>
-        </div><!--/#main_banner-->
-		
+        </div>
+		<!--轮播 end-->
+
+        <!--推荐公司 start-->
     	<ul id="da-thumbs" class="da-thumbs">
     		<li >
                 <a href="h/c/1650.html" target="_blank">
@@ -219,193 +188,115 @@
                 </a>
             </li>
         </ul>
-        
+        <!--推荐公司 end-->
+
         <ul class="reset hotabbing">
         	<li class="current">热门职位</li>
         	<li>最新职位</li>
         </ul>
         <div id="hotList">
+            <!--热门职位-->
             <ul class="hot_pos reset">
-            	<li class="clearfix">
-	            	<div class="hot_pos_l">
-		                <div class="mb10">
-		                    <a href="h/jobs/147822.html" target="_blank">运营总监</a> &nbsp;
-		                    <span class="c9">[北京]</span>
-		                </div>
-                        <span><em class="c7">月薪： </em>15k-20k</span>
-                        <span><em class="c7">经验：</em> 3-5年</span>
-                        <span><em class="c7">最低学历： </em>本科</span>
-                        <br />
-                        <span><em class="c7">职位诱惑：</em>发展前景</span>
-                        <br />
-	                    <span>1天前发布</span>
-                        <!-- <a  class="wb">分享到微博</a> -->
-		            </div>
-                	<div class="hot_pos_r">
-                    	<div class="mb10 recompany">
-                    		<a href="h/c/399.html" target="_blank">节操精选</a>
-                    	</div>
-                        <span><em class="c7">领域：</em> 移动互联网</span>
-                        <span><em class="c7">创始人：</em>陈桦</span><br />
-                        <span><em class="c7">阶段：</em> 初创型(天使轮)</span>
-                        <span><em class="c7">规模：</em>少于15人</span>
-                        <ul class="companyTags reset">
-                        	<li>移动互联网</li>
-                			<li>五险一金</li>
-                			<li>扁平管理</li>
-                        </ul>
-                    </div>
-		        </li>
-                <li class="odd clearfix">
-	            	<div class="hot_pos_l">
-                    	<div class="mb10">
-                        	<a href="h/jobs/147974.html" target="_blank">售前工程师（运维经验优先）</a> 
-                            &nbsp;
-                            <span class="c9">[北京]</span>
+                <?php $hotPosition = App\Classes\Api::run('getHotPosition')?>
+                <?php $__currentLoopData = $hotPosition; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $hotJob_key => $hotJob_v): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                	<li class="clearfix">
+    	            	<div class="hot_pos_l">
+    		                <div class="mb10">
+    		                    <a href="#" target="_blank"><?php echo e($hotJob_v->name); ?></a> &nbsp;
+    		                    <span class="c9">[<?php echo e($hotJob_v->city); ?>]</span>
+    		                </div>
+                            <span><em class="c7">月薪： </em>
+                                <?php echo e($hotJob_v->salary_min); ?>k-<?php echo e($hotJob_v->salary_max); ?>k
+                            </span>
+                            <span><em class="c7">经验：</em> <?php echo e($hotJob_v->sname); ?></span>
+                            <span><em class="c7">最低学历： </em><?php echo e($hotJob_v->degree); ?></span>
+                            <br />
+                            <span><em class="c7">职位诱惑：</em><?php echo e($hotJob_v->brief_intro); ?></span>
+                            <br />
+    	                    <span>发布时间：<?php echo e(date("Y-m-d",strtotime($hotJob_v->brief_intro))); ?></span>
+                            <!-- <a  class="wb">分享到微博</a> -->
+    		            </div>
+                        <div class="hot_pos_r">
+                            <?php $companyInfo = App\Classes\Api::run('getCompanyByJob',['#id#',$hotJob_v->company_id]);?>
+                            <div class="mb10 recompany">
+                                <a href="h/c/399.html" target="_blank"><?php echo e($companyInfo[0]->short_name); ?></a>
+                            </div>
+                            <span><em class="c7">领域：</em> 
+                                <?php if($companyInfo): ?>
+                                    <?php $__currentLoopData = $companyInfo; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $area): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                                        <?php echo e($area->tname); ?> &nbsp;&nbsp;&nbsp;
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                                <?php endif; ?>
+                            </span>
+                            <span><em class="c7">创始人：</em><?php echo e($companyInfo[0]->originator); ?></span><br />
+                            <span><em class="c7">阶段：</em> <?php echo e($companyInfo[0]->pname); ?></span>
+                            <span><em class="c7">规模：</em>
+                                <?php echo e($companyInfo[0]->min); ?>-<?php echo e($companyInfo[0]->max); ?>人
+                            </span>
+                            <ul class="companyTags reset">
+                                <?php $companyTag = App\Classes\Api::run('getTagByCompanyId',['#id#',$hotJob_v->company_id]);?>
+                                <?php if($companyTag): ?>
+                                    <?php $__currentLoopData = $companyTag; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $tag): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                                	   <li><?php echo e($tag->tag_name); ?></li>
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                                <?php endif; ?>
+                            </ul>
                         </div>
-                        <span><em class="c7">月薪： </em>6k-12k</span>
-                        <span><em class="c7">经验：</em> 3-5年</span>
-                        <span><em class="c7">最低学历： </em>大专</span>
-                        <br />
-                        <span><em class="c7">职位诱惑：</em>五险一金+商业保险+带薪年假+奖金等</span>
-                        <br />
-	                    <span>1天前发布</span>
-                        <!-- <a  class="wb">分享到微博</a> -->
-                    </div>
-                	<div class="hot_pos_r">
-                    	<div class="mb10 recompany"><a href="h/c/5232.html" target="_blank">监控宝</a></div>
-                        <span><em class="c7">领域：</em> 云计算\大数据</span><br />
-                        <span><em class="c7">阶段：</em> 成长型(A轮)</span>
-                        <span><em class="c7">规模：</em>50-150人</span>
-                        <ul class="companyTags reset">
-                        	<li>五险一金</li>
-                        	<li>福利好</li>
-                        	<li>商业险</li>
-                        </ul>
-                    </div>
-		        </li>
-                <li class="clearfix">
-	            	<div class="hot_pos_l">
-		                <div class="mb10">
-		                    <a href="h/jobs/148237.html" target="_blank">手机游戏运营</a>&nbsp;
-		                    <span class="c9">[南京]</span>
-		                </div>
-                        <span><em class="c7">月薪： </em>4k-8k</span>
-                        <span><em class="c7">经验：</em> 1-3年</span>
-                        <span><em class="c7">最低学历： </em>本科</span>
-                        <br />
-                        <span><em class="c7">职位诱惑：</em>工作氛围和谐~正面激励成长~福利好~</span>
-                        <br />
-	                    <span>1天前发布</span>
-                        <!-- <a  class="wb">分享到微博</a> -->
-                    </div>
-                	<div class="hot_pos_r">
-                    	<div class="mb10 recompany"><a href="h/c/8307.html" target="_blank">爱游戏(中国电信游戏基地)</a></div>
-                        <span><em class="c7">领域：</em> 移动互联网,游戏</span><br />
-                        <span><em class="c7">阶段：</em> 初创型(未融资)</span>
-                        <span><em class="c7">规模：</em>150-500人</span>
-                        <ul class="companyTags reset">
-		                    <li>绩效奖金</li>
-		                    <li>年底双薪</li>
-		                    <li>五险一金</li>
-		                </ul>
-		            </div>
-		        </li>
+    		        </li>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
                 <a href="list.html" class="btn fr" target="_blank">查看更多</a>
             </ul>
 
+            <!--最新职位-->
             <ul class="hot_pos hot_posHotPosition reset" style="display:none;">
-            	<li class="clearfix">
-	            	<div class="hot_pos_l">
-                    	<div class="mb10">
-                        	<a href="h/jobs/149389.html" target="_blank">高级PHP研发工程师</a> 
-                            &nbsp;
-                            <span class="c9">[南京]</span>
+                <?php $hotPosition = App\Classes\Api::run('getNewPosition')?>
+                <?php $__currentLoopData = $hotPosition; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $hotJob_key => $hotJob_v): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                    <li class="clearfix">
+                        <div class="hot_pos_l">
+                            <div class="mb10">
+                                <a href="#" target="_blank"><?php echo e($hotJob_v->name); ?></a> &nbsp;
+                                <span class="c9">[<?php echo e($hotJob_v->city); ?>]</span>
+                            </div>
+                            <span><em class="c7">月薪： </em>
+                                <?php echo e($hotJob_v->salary_min); ?>k-<?php echo e($hotJob_v->salary_max); ?>k
+                            </span>
+                            <span><em class="c7">经验：</em> <?php echo e($hotJob_v->sname); ?></span>
+                            <span><em class="c7">最低学历： </em><?php echo e($hotJob_v->degree); ?></span>
+                            <br />
+                            <span><em class="c7">职位诱惑：</em><?php echo e($hotJob_v->brief_intro); ?></span>
+                            <br />
+                            <span>发布时间：<?php echo e(date("Y-m-d",strtotime($hotJob_v->brief_intro))); ?></span>
+                            <!-- <a  class="wb">分享到微博</a> -->
                         </div>
-                        <span><em class="c7">月薪： </em>12k-24k</span>
-                        <span><em class="c7">经验：</em>3-5年</span>
-                        <span><em class="c7">最低学历：</em> 本科</span>
-                        <br />
-                        <span><em class="c7">职位诱惑：</em>IPO了的互联网创业公司，潜力无限！</span>
-                        <br />
-	                    <span>15:11发布</span>
-                        <!-- <a  class="wb">分享到微博</a> -->
-                    </div>
-                	<div class="hot_pos_r">
-                    	<div class="mb10"><a href="h/c/8250.html" target="_blank">途牛旅游网</a></div>
-                        <span><em class="c7">领域：</em> 电子商务,在线旅游</span>
-                        <span><em class="c7">创始人：</em>于敦德</span>
-                        <br />
-                        <span> <em class="c7">阶段： </em>上市公司</span>
-                        <span> <em class="c7">规模：</em>500-2000人</span>
-                        <ul class="companyTags reset">
-                        	<li>绩效奖金</li>
-                        	<li>股票期权</li>
-                        	<li>五险一金</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="odd clearfix">
-	            	<div class="hot_pos_l">
-		                <div class="mb10">
-                        	<a href="h/jobs/149388.html" target="_blank">高级搜索研发工程师</a> 
-                            &nbsp;
-                            <span class="c9">[南京]</span>
-		                </div>
-                        <span><em class="c7">月薪： </em>15k-30k</span>
-                        <span><em class="c7">经验：</em>3-5年</span>
-                        <span><em class="c7">最低学历：</em> 本科</span>
-                        <br />
-                        <span><em class="c7">职位诱惑：</em>IPO了的互联网创业公司，潜力无限！</span>
-                        <br />
-	                    <span>15:09发布</span>
-                        <!-- <a  class="wb">分享到微博</a> -->
-                    </div>
-                	<div class="hot_pos_r">
-                    	<div class="mb10"><a href="h/c/8250.html" target="_blank">途牛旅游网</a></div>
-                        <span><em class="c7">领域：</em> 电子商务,在线旅游</span>
-                        			                        <span><em class="c7">创始人：</em>于敦德</span>
-                        			                        <br />
-                        <span> <em class="c7">阶段： </em>上市公司</span>
-                        <span> <em class="c7">规模：</em>500-2000人</span>
-                        <ul class="companyTags reset">
-                        	<li>绩效奖金</li>
-                        	<li>股票期权</li>
-                        	<li>五险一金</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="clearfix">
-	            	<div class="hot_pos_l">
-		                <div class="mb10">
-		                    <a href="h/jobs/149385.html" target="_blank">高级数据工程师（爬虫、采集、分析）</a> 
-		                    &nbsp;
-		                    <span class="c9">[南京]</span>
-		                </div>
-                        <span><em class="c7">月薪： </em>15k-30k</span>
-                        <span><em class="c7">经验：</em>3-5年</span>
-                        <span><em class="c7">最低学历：</em> 本科</span>
-                        <br />
-                        <span><em class="c7">职位诱惑：</em>IPO了的互联网创业公司，潜力无限！</span>
-                        <br />
-	                    <span>15:08发布</span>
-                        <!-- <a  class="wb">分享到微博</a> -->
-                    </div>
-                	<div class="hot_pos_r">
-                    	<div class="mb10"><a href="h/c/8250.html" target="_blank">途牛旅游网</a></div>
-                        <span><em class="c7">领域：</em> 电子商务,在线旅游</span>
-                        <span><em class="c7">创始人：</em>于敦德</span>
-                        <br />
-                        <span> <em class="c7">阶段： </em>上市公司</span>
-                        <span> <em class="c7">规模：</em>500-2000人</span>
-                        <ul class="companyTags reset">
-                        	<li>绩效奖金</li>
-                        	<li>股票期权</li>
-                        	<li>五险一金</li>
-                        </ul>
-                    </div>
-                </li>
-                <a href="list.html?city=%E5%85%A8%E5%9B%BD" class="btn fr" target="_blank">查看更多</a>
+                        <div class="hot_pos_r">
+                            <?php $companyInfo = App\Classes\Api::run('getCompanyByJob',['#id#',$hotJob_v->company_id]);?>
+                            <div class="mb10 recompany">
+                                <a href="h/c/399.html" target="_blank"><?php echo e($companyInfo[0]->short_name); ?></a>
+                            </div>
+                            <span><em class="c7">领域：</em> 
+                                <?php if($companyInfo): ?>
+                                    <?php $__currentLoopData = $companyInfo; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $area): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                                        <?php echo e($area->tname); ?> &nbsp;&nbsp;&nbsp;
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                                <?php endif; ?>
+                            </span>
+                            <span><em class="c7">创始人：</em><?php echo e($companyInfo[0]->originator); ?></span><br />
+                            <span><em class="c7">阶段：</em> <?php echo e($companyInfo[0]->pname); ?></span>
+                            <span><em class="c7">规模：</em>
+                                <?php echo e($companyInfo[0]->min); ?>-<?php echo e($companyInfo[0]->max); ?>人
+                            </span>
+                            <ul class="companyTags reset">
+                                <?php $companyTag = App\Classes\Api::run('getTagByCompanyId',['#id#',$hotJob_v->company_id]);?>
+                                <?php if($companyTag): ?>
+                                    <?php $__currentLoopData = $companyTag; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $tag): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                                       <li><?php echo e($tag->tag_name); ?></li>
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                                <?php endif; ?>
+                            </ul>
+                        </div>
+                    </li>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                <a href="list.html" class="btn fr" target="_blank">查看更多</a>
             </ul>
         </div>
         

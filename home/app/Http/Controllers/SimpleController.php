@@ -25,16 +25,9 @@ class SimpleController extends Controller
 	 * [reg_act 用户注册]
 	 * @author 张石磊
 	 */
-    public function reg_act(Request $request)
+    public function reg_act()
     {
-    	$res = $this->simple->reg($request->all());
-    	if ($res) 
-    	{
-    		echo '{"success":"true","content":"' . url('/') . '"}';
-    	}
-    	else
-    	{
-    		echo '{"success":"false","msg":"注册失败"}';
-    	}
+    	$res = $this->simple->reg();
+        return $res;
     }
 }

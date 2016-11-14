@@ -2,44 +2,54 @@
 
 namespace App\Repositories;
 
-use Illuminate\Http\Request;
+use Hash;
 use App\User;
 use App\Company;
-use Hash;
+use Illuminate\Support\Facades\Input;
 
 /**
  * @var simple仓库
- * @author 张石磊创建
+ * @author 张石磊
  */
 class SimpleRepository
 {
     /**
      * 注册动作
-     *
      * @param  User  $user
-     * @return int 保存后的自增值
+     * @return string[json] 动作结果信息
      */
-    public function reg($formData)
+    public function reg()
     {
-        //企业注册
-        if ($formData['type']) 
+        $type = Input::get('type');
+        switch ($type) 
         {
-            $companyObj = new Company;
-            $companyObj->email = $formData['email'];
-            $companyObj->password = Hash::make($formData['password']);
-            $companyObj->save();
-            $insertId = $companyObj->id;
+            //求职者注册    
+            case '0':
+                $userObj = new User;
+                $userObj->email = Input::get('email');
+                $userObj->password = Hash::make(Input::get('password'));
+                $userObj->create_time = date("Y-m-d H:i:s",time());
+                $res = $userObj->save();
+                break;
+
+            //企业注册
+            case '1':
+                $companyObj = new Company;
+                $companyObj->email = Input::get('email');
+                $companyObj->password = Hash::make(Input::get('password'));
+                $userObj->create_time = date("Y-m-d H:i:s",time());
+                $res = $companyObj->save();
+                break;
+        }
+
+        //返回请求数据
+        if ($res) 
+        {
+            return '{"success":"true","content":"' . url('/') . '"}';
         }
         else
         {
-            $userObj = new User;
-            //求职者注册
-            $userObj->email = $formData['email'];
-            $userObj->password = Hash::make($formData['password']);
-            $userObj->save();
-            $insertId = $userObj->id;
+            return '{"success":"false","msg":"注册失败"}';
         }
-
-        return $insertId;
     }
 }
