@@ -18,18 +18,15 @@ class RegCheck
     public function handle($request, Closure $next)
     {
         //验证唯邮箱唯一
-        $companyObj = new Company;
-        $companyCheck = $companyObj->where('email',$formData['email'])->first();
-
-        $userObj = new User;
-        $userCheck = $userObj->where('email',$formData['email'])->first();
+        $companyCheck = Company::where('email',$request->input('email'))->first();
+        $userCheck = User::where('email',$request->input('email'))->first();
 
         if ($companyCheck !== NULL || $userCheck !== NULL) 
         {
-            var_dump($companyCheck);
-            var_dump($userCheck);die;
+            //return response()->json(['success' => 'false','msg' => '邮箱已经存在，请换个邮箱'], 200, $headers);
+            return redirect('reg');
         }
-        
+
         return $next($request);
     }
 }

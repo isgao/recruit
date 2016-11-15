@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\Storage;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,7 +17,7 @@ Route::get('/reg', function(){
 	return view('simple.register');
 });
 //注册动作
-Route::post('/reg_act', 'SimpleController@reg_act');
+Route::post('/reg_act', 'SimpleController@reg_act')->middleware('regCheck');;
 //登录页面
 Route::get('/login', function(){
 	return view('simple.login');
