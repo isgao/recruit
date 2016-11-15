@@ -44,15 +44,24 @@
         			<li class="current"><a href="index.html">首页</a></li>
         			<li ><a href="companylist.html" >公司</a></li>
         			<li ><a href="#" target="_blank">论坛</a></li>
-        				    			<li ><a href="jianli.html" rel="nofollow">我的简历</a></li>
+        				    			<li ><a href="jianli" rel="nofollow">我的简历</a></li>
     	    							    			<li ><a href="create.html" rel="nofollow">发布职位</a></li>
-    	    		    		</ul>
-            	            <ul class="loginTop">
-                	<li><a href="login" rel="nofollow">登录</a></li>
-                	<li>|</li>
-                	<li><a href="reg" rel="nofollow">注册</a></li>
                 </ul>
-                                    </div>
+                <ul class="loginTop">
+        <?php if(session('username')==''): ?>
+                        <li><a href="login" rel="nofollow">
+                                登陆</a></li>
+                        <li>|</li>
+                        <li><a href="reg" rel="nofollow">注册</a></li>
+            <?php else: ?>
+                	<li><a rel="nofollow">欢迎
+                            <?php echo e(session('username')); ?>
+
+                            登陆</a></li>
+                	<li>
+            <?php endif; ?>
+                </ul>
+            </div>
         </div>
         <!-- end #header -->
         

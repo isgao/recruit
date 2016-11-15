@@ -37,4 +37,16 @@ class SimpleController extends Controller
     		echo '{"success":"false","msg":"注册失败"}';
     	}
     }
+    public function login_act(Request $request){
+        $data = $request->input();
+        $arr = $this->simple->sel($data);
+//        var_dump($data);die;
+        if($arr){
+            $request->session()->put('username',$arr->username);
+            //dd($arr)
+            return redirect('/');
+        }else{
+            echo "<script>alert('请输入正确的账号和密码!');</script>";
+        }
+    }
 }

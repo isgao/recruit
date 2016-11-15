@@ -22,4 +22,5 @@ Route::post('/reg_act', 'SimpleController@reg_act');
 Route::get('/login', function(){
 	return view('simple.login');
 });
-Route::post('/login_act','LoginController@login_act');
+Route::post('/login_act','SimpleController@login_act');
+Route::get('/jianli','ResumeaddController@index');
