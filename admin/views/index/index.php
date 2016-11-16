@@ -27,92 +27,13 @@ use yii\helpers\Url;
 						<i class="icon-home home-icon"></i>
 						<a href="javascript:void(0);">首页</a>
 					</li>
-					<li class="active">控制台</li>
 				</ul><!-- .breadcrumb -->
 			</div>
 		</div><!-- /.main-content -->
 		
-		<table width="26%" cellspacing="0" cellpadding="5" class="border_table_org" style="float:left">
-			<thead>
-				<tr><th>系统信息</th></tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>
-						<table class="list_table2" width="100%">
-							<colgroup>
-								<col width="80px" />
-								<col />
-							</colgroup>
-							<tbody>
-								
-								<tr><th>当前版本号</th><td></td></tr>
-								<tr><th>最新版本号</th><td></td></tr>
-								<tr><th>官网地址</th><td><a href='http://www.jooyea.cn' target='_blank'><b class='red3'>www.jooyea.cn</b></a></td></tr>
-								<tr><th>服务器软件</th><td></td></tr>
-								<tr><th>附件上传容量</th><td></td></tr>
-								<tr><th>授权信息</th><td><b class="green">授权商业版本</b><b class="red2">非授权版本</b></td></tr>
-							</tbody>
-						</table>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-
-		<table width="27%" cellspacing="0" cellpadding="5" class="border_table_org" style="float:left">
-			<thead>
-				<tr><th>基础统计</th></tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>
-						<table class="list_table2" width="100%">
-							<colgroup>
-								<col width="80px" />
-								<col />
-							</colgroup>
-							<tbody>
-								<tr><th>商家数量</th><td><a href="{url:/member/seller_list}"><b class="f14 red3"></b> 家</a></td></tr>
-								<tr><th>销售总额</th><td><a href="{url:/market/amount}"><b class="f14 red3"></b> 元</a></td></tr>
-								<tr><th>注册用户</th><td><a href="{url:/member/member_list}"><b class="f14 red3"></b> 个</a></td></tr>
-								<tr><th>产品数量</th><td><a href="{url:/goods/goods_list}"><b class="f14 red3"></b> 个</a></td></tr>
-								<tr><th>品牌数量</th><td><a href="{url:/brand/brand_list}"><b class="f14 red3"></b> 个</a></td></tr>
-								<tr><th>订单数量</th><td><a href="{url:/order/order_list}"><b class="f14 red3"></b> 个</a></td></tr>
-								<tr><th>库存预警</th><td><a href="javascript:formSubmit('storeNumWarning');"><b class="f14 red3"></b> 个</a></td></tr>
-							</tbody>
-						</table>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-
-		<table width="25%" cellspacing="0" cellpadding="5" class="border_table_org" style="float:left">
-			<thead>
-				<tr><th>待处理</th></tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>
-						<table class="list_table2" width="100%">
-							<colgroup>
-								<col width="80px" />
-								<col />
-							</colgroup>
-		
-							<tbody>
-								<tr><th>待回复评论</th><td><a href="{url:/comment/comment_list/search[c.recomment_time]/=0}"><b class="red3 f14"></b></a> 个</td></tr>
-								<tr><th>待回复建议</th><td><a href='{url:/comment/suggestion_list/search[a.re_time=]/0}'><b class="red3 f14"></b></a> 个</td></tr>
-								<tr><th>待回复咨询</th><td><a href="{url:/comment/refer_list/search[r.status=]/0}"><b class="red3 f14"></b></a> 个</td></tr>
-								<tr><th>未发货订单</th><td><a href="{url:/order/order_list/search[distribution_status]/0}"><b class="f14 red3"></b></a> 个</td></tr>
-								<tr><th>退款申请</th><td><a href="{url:/order/refundment_list}"><b class="red3 f14"></b></a> 个</td></tr>
-								<tr><th>待审商家</th><td><a href="{url:/member/seller_list/search[is_lock=]/1}"><b class="red3 f14"></b></a> 个</td></tr>
-								<tr><th>待审商品</th><td><a href="{url:/goods/goods_list/search[is_del]/3}"><b class="red3 f14"></b></a> 个</td></tr>
-							</tbody>
-						</table>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div align="center">
+			<span style="float:left; margin-top:12%; margin-left:28%;color:#438eb9;font-size:100px;">欢迎使用</span>
+		</div>
 		
 		<!-- 皮肤设置 -->
 		<div class="ace-settings-container" id="ace-settings-container">
