@@ -14,9 +14,15 @@ use yii\helpers\Url;
                 <table class="insert-tab" width="100%">
                     <tbody>
                         <tr>
-                            <th><i class="require-red">*</i>公司规模：</th>
+                            <th><i class="require-red">*</i>公司标签：</th>
                             <td>
-                                <input class="common-text required" id="title" name="min" size="5" value="" type="text">&nbsp;~&nbsp;<input class="common-text required" id="title" name="max" size="5" value="" type="text">&nbsp;人
+                                <input class="common-text required" id="title" name="tag_name" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>排序：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="sort" size="5" value="0" type="text">
                             </td>
                         </tr>
                         <tr>

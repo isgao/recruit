@@ -20675,3 +20675,626 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1479093348.8662
     'REQUEST_TIME' => 1479093348
 ]
+2016-11-16 02:04:37 [::1][-][bip75h05p5so459ob2q8s42aq3][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function getUniqueId() on a non-object' in E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Controller.php:325
+Stack trace:
+#0 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Controller.php(128): yii\base\Action->getUniqueId()
+#1 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#2 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#3 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#4 E:\wamp\www\nine\recruit\admin\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2016-11-16 02:04:37 [::1][-][bip75h05p5so459ob2q8s42aq3][info][application] $_GET = [
+    'r' => 'company/period'
+]
+
+$_COOKIE = [
+    'Hm_lvt_12e233684b48dc67054644eaa9e278fc' => '1461847139,1461911342,1461924151,1461933539'
+    'ECS' => [
+        'visit_times' => '10'
+    ]
+    '_ga' => 'GA1.1.665754247.1471596877'
+    'Hm_lvt_e9e114d958ea263de46e080563e254c4' => '1472872809,1472880768'
+    'pgv_pvi' => '4320408576'
+    'Hm_lvt_2e66c26c9d62324132291faf1862cfa5' => '1472884720'
+    'sgsa_id' => 'localhost|1472884720597584'
+    'bdshare_firstime' => '1472884725404'
+    '__utma' => '111872281.665754247.1471596877.1472884727.1472884727.1'
+    '__utmz' => '111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA2652861' => 'cnzz_eid=455524242-1473209480-http%3A%2F%2Flocalhost%2F&ntime=1474677243'
+    'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6' => '1473642922,1473685314'
+    'Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6' => '1474534870,1474590947,1474610784'
+    'Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe' => '1474602324,1474610784'
+    'iweb_safecode' => 'cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI+YzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw'
+    'iweb_shoppingcart' => '10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4'
+    'CNZZDATA155540' => 'cnzz_eid=1970694984-1478218675-&ntime=1479255670'
+    'iweb_captcha' => '196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg'
+    'iweb_admin_role_name' => 'ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg'
+    'iweb_admin_id' => '81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx'
+    'iweb_admin_name' => '554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ/NjVkZmpqbg'
+    'iweb_admin_pwd' => 'cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng'
+    'think_template' => 'default'
+    '_csrf' => '630ef0d6802ab715efc8141793cdefccb6929985570c3b088c7e9292462afcfba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JnKWLXjGNyuISTTVXfQPk1OhaA7Dgx7g\";}'
+    'PHPSESSID' => 'bip75h05p5so459ob2q8s42aq3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => '1'
+        'username' => 'YYD'
+        'expire_time' => 1479260625
+    ]
+    'username' => 'YYD'
+    'id' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/nine/recruit/admin/web/index.php?r=index%2Findex'
+    'HTTP_COOKIE' => 'Hm_lvt_12e233684b48dc67054644eaa9e278fc=1461847139,1461911342,1461924151,1461933539; ECS[visit_times]=10; _ga=GA1.1.665754247.1471596877; Hm_lvt_e9e114d958ea263de46e080563e254c4=1472872809,1472880768; pgv_pvi=4320408576; Hm_lvt_2e66c26c9d62324132291faf1862cfa5=1472884720; sgsa_id=localhost|1472884720597584; bdshare_firstime=1472884725404; __utma=111872281.665754247.1471596877.1472884727.1472884727.1; __utmz=111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA2652861=cnzz_eid%3D455524242-1473209480-http%253A%252F%252Flocalhost%252F%26ntime%3D1474677243; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1473642922,1473685314; Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6=1474534870,1474590947,1474610784; Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe=1474602324,1474610784; iweb_safecode=cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI%2BYzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw; iweb_shoppingcart=10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4; CNZZDATA155540=cnzz_eid%3D1970694984-1478218675-%26ntime%3D1479255670; iweb_captcha=196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg; iweb_admin_role_name=ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg; iweb_admin_id=81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx; iweb_admin_name=554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ%2FNjVkZmpqbg; iweb_admin_pwd=cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng; think_template=default; _csrf=630ef0d6802ab715efc8141793cdefccb6929985570c3b088c7e9292462afcfba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JnKWLXjGNyuISTTVXfQPk1OhaA7Dgx7g%22%3B%7D; PHPSESSID=bip75h05p5so459ob2q8s42aq3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\wamp\\PHP\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\linux\\linux_SW\\SVN\\bin;E:\\9.Yii\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/nine/recruit/admin/web/index.php'
+    'REMOTE_PORT' => '57605'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=company%2Fperiod'
+    'REQUEST_URI' => '/nine/recruit/admin/web/index.php?r=company%2Fperiod'
+    'SCRIPT_NAME' => '/nine/recruit/admin/web/index.php'
+    'PHP_SELF' => '/nine/recruit/admin/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479258277.161
+    'REQUEST_TIME' => 1479258277
+]
+2016-11-16 02:11:21 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare app\controllers\CompanyController::actionTerritory_update()' in E:\wamp\www\nine\recruit\admin\controllers\CompanyController.php:351
+Stack trace:
+#0 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(562): ::spl_autoload_call()
+#1 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(562): ::class_exists()
+#2 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID()
+#3 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController()
+#4 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#5 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 E:\wamp\www\nine\recruit\admin\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-11-16 02:11:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'company/period'
+]
+
+$_COOKIE = [
+    'Hm_lvt_12e233684b48dc67054644eaa9e278fc' => '1461847139,1461911342,1461924151,1461933539'
+    'ECS' => [
+        'visit_times' => '10'
+    ]
+    '_ga' => 'GA1.1.665754247.1471596877'
+    'Hm_lvt_e9e114d958ea263de46e080563e254c4' => '1472872809,1472880768'
+    'pgv_pvi' => '4320408576'
+    'Hm_lvt_2e66c26c9d62324132291faf1862cfa5' => '1472884720'
+    'sgsa_id' => 'localhost|1472884720597584'
+    'bdshare_firstime' => '1472884725404'
+    '__utma' => '111872281.665754247.1471596877.1472884727.1472884727.1'
+    '__utmz' => '111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA2652861' => 'cnzz_eid=455524242-1473209480-http%3A%2F%2Flocalhost%2F&ntime=1474677243'
+    'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6' => '1473642922,1473685314'
+    'Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6' => '1474534870,1474590947,1474610784'
+    'Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe' => '1474602324,1474610784'
+    'iweb_safecode' => 'cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI+YzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw'
+    'iweb_shoppingcart' => '10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4'
+    'CNZZDATA155540' => 'cnzz_eid=1970694984-1478218675-&ntime=1479255670'
+    'iweb_captcha' => '196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg'
+    'iweb_admin_role_name' => 'ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg'
+    'iweb_admin_id' => '81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx'
+    'iweb_admin_name' => '554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ/NjVkZmpqbg'
+    'iweb_admin_pwd' => 'cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng'
+    'think_template' => 'default'
+    '_csrf' => '630ef0d6802ab715efc8141793cdefccb6929985570c3b088c7e9292462afcfba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JnKWLXjGNyuISTTVXfQPk1OhaA7Dgx7g\";}'
+    'PHPSESSID' => 'bip75h05p5so459ob2q8s42aq3'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/nine/recruit/admin/web/index.php?r=position%2Fcate'
+    'HTTP_COOKIE' => 'Hm_lvt_12e233684b48dc67054644eaa9e278fc=1461847139,1461911342,1461924151,1461933539; ECS[visit_times]=10; _ga=GA1.1.665754247.1471596877; Hm_lvt_e9e114d958ea263de46e080563e254c4=1472872809,1472880768; pgv_pvi=4320408576; Hm_lvt_2e66c26c9d62324132291faf1862cfa5=1472884720; sgsa_id=localhost|1472884720597584; bdshare_firstime=1472884725404; __utma=111872281.665754247.1471596877.1472884727.1472884727.1; __utmz=111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA2652861=cnzz_eid%3D455524242-1473209480-http%253A%252F%252Flocalhost%252F%26ntime%3D1474677243; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1473642922,1473685314; Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6=1474534870,1474590947,1474610784; Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe=1474602324,1474610784; iweb_safecode=cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI%2BYzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw; iweb_shoppingcart=10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4; CNZZDATA155540=cnzz_eid%3D1970694984-1478218675-%26ntime%3D1479255670; iweb_captcha=196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg; iweb_admin_role_name=ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg; iweb_admin_id=81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx; iweb_admin_name=554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ%2FNjVkZmpqbg; iweb_admin_pwd=cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng; think_template=default; _csrf=630ef0d6802ab715efc8141793cdefccb6929985570c3b088c7e9292462afcfba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JnKWLXjGNyuISTTVXfQPk1OhaA7Dgx7g%22%3B%7D; PHPSESSID=bip75h05p5so459ob2q8s42aq3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\wamp\\PHP\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\linux\\linux_SW\\SVN\\bin;E:\\9.Yii\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/nine/recruit/admin/web/index.php'
+    'REMOTE_PORT' => '57943'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=company%2Fperiod'
+    'REQUEST_URI' => '/nine/recruit/admin/web/index.php?r=company%2Fperiod'
+    'SCRIPT_NAME' => '/nine/recruit/admin/web/index.php'
+    'PHP_SELF' => '/nine/recruit/admin/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479258681.062
+    'REQUEST_TIME' => 1479258681
+]
+2016-11-16 13:26:32 [::1][-][b8q4pd1ekl91uo9ab5ntgil3q6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: company/company_add' in E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('company_add', Array)
+#1 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('company/company...', Array)
+#2 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\wamp\www\nine\recruit\admin\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp\www\nine\recruit\admin\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-16 13:26:32 [::1][-][b8q4pd1ekl91uo9ab5ntgil3q6][info][application] $_GET = [
+    'r' => 'company/company_add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_12e233684b48dc67054644eaa9e278fc' => '1461847139,1461911342,1461924151,1461933539'
+    'ECS' => [
+        'visit_times' => '10'
+    ]
+    '_ga' => 'GA1.1.665754247.1471596877'
+    'Hm_lvt_e9e114d958ea263de46e080563e254c4' => '1472872809,1472880768'
+    'pgv_pvi' => '4320408576'
+    'Hm_lvt_2e66c26c9d62324132291faf1862cfa5' => '1472884720'
+    'sgsa_id' => 'localhost|1472884720597584'
+    'bdshare_firstime' => '1472884725404'
+    '__utma' => '111872281.665754247.1471596877.1472884727.1472884727.1'
+    '__utmz' => '111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA2652861' => 'cnzz_eid=455524242-1473209480-http%3A%2F%2Flocalhost%2F&ntime=1474677243'
+    'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6' => '1473642922,1473685314'
+    'Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6' => '1474534870,1474590947,1474610784'
+    'Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe' => '1474602324,1474610784'
+    'iweb_safecode' => 'cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI+YzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw'
+    'iweb_shoppingcart' => '10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4'
+    'CNZZDATA155540' => 'cnzz_eid=1970694984-1478218675-&ntime=1479298874'
+    'iweb_captcha' => '196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg'
+    'iweb_admin_role_name' => 'ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg'
+    'iweb_admin_id' => '81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx'
+    'iweb_admin_name' => '554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ/NjVkZmpqbg'
+    'iweb_admin_pwd' => 'cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng'
+    'think_template' => 'default'
+    '_csrf' => '0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc\";}'
+    'PHPSESSID' => 'b8q4pd1ekl91uo9ab5ntgil3q6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'admin_id' => '1'
+        'username' => 'YYD'
+        'expire_time' => 1479302597
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/nine/recruit/admin/web/index.php?r=company%2Findex'
+    'HTTP_COOKIE' => 'Hm_lvt_12e233684b48dc67054644eaa9e278fc=1461847139,1461911342,1461924151,1461933539; ECS[visit_times]=10; _ga=GA1.1.665754247.1471596877; Hm_lvt_e9e114d958ea263de46e080563e254c4=1472872809,1472880768; pgv_pvi=4320408576; Hm_lvt_2e66c26c9d62324132291faf1862cfa5=1472884720; sgsa_id=localhost|1472884720597584; bdshare_firstime=1472884725404; __utma=111872281.665754247.1471596877.1472884727.1472884727.1; __utmz=111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA2652861=cnzz_eid%3D455524242-1473209480-http%253A%252F%252Flocalhost%252F%26ntime%3D1474677243; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1473642922,1473685314; Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6=1474534870,1474590947,1474610784; Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe=1474602324,1474610784; iweb_safecode=cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI%2BYzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw; iweb_shoppingcart=10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4; CNZZDATA155540=cnzz_eid%3D1970694984-1478218675-%26ntime%3D1479298874; iweb_captcha=196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg; iweb_admin_role_name=ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg; iweb_admin_id=81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx; iweb_admin_name=554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ%2FNjVkZmpqbg; iweb_admin_pwd=cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng; think_template=default; _csrf=0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc%22%3B%7D; PHPSESSID=b8q4pd1ekl91uo9ab5ntgil3q6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\wamp\\PHP\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\linux\\linux_SW\\SVN\\bin;E:\\9.Yii\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/nine/recruit/admin/web/index.php'
+    'REMOTE_PORT' => '50897'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=company%2Fcompany_add'
+    'REQUEST_URI' => '/nine/recruit/admin/web/index.php?r=company%2Fcompany_add'
+    'SCRIPT_NAME' => '/nine/recruit/admin/web/index.php'
+    'PHP_SELF' => '/nine/recruit/admin/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479299192.33
+    'REQUEST_TIME' => 1479299192
+]
+2016-11-16 13:30:47 [::1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'htmlspecialchars(): charset `utf8' not supported, assuming utf-8' in E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\helpers\BaseHtml.php:104
+Stack trace:
+#0 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\helpers\BaseHtml.php(1789): yii\helpers\BaseHtml::encode()
+#1 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\helpers\BaseHtml.php(143): yii\helpers\BaseHtml::renderTagAttributes()
+#2 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\widgets\LinkPager.php(219): yii\helpers\BaseHtml::tag()
+#3 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\widgets\LinkPager.php(174): yii\widgets\LinkPager->renderPageButton()
+#4 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\widgets\LinkPager.php(133): yii\widgets\LinkPager->renderPageButtons()
+#5 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Widget.php(102): yii\widgets\LinkPager->run()
+#6 E:\wamp\www\nine\recruit\admin\views\company\period.php(39): yii\base\Widget::widget()
+#7 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#8 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#9 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#10 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render()
+#11 E:\wamp\www\nine\recruit\admin\controllers\CompanyController.php(230): yii\base\Controller->render()
+#12 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\CompanyController->actionPeriod()
+#13 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#14 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#15 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#16 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#17 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#18 E:\wamp\www\nine\recruit\admin\web\index.php(18): yii\base\Application->run()
+#19 {main}
+2016-11-16 13:30:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'company/period'
+]
+
+$_COOKIE = [
+    'Hm_lvt_12e233684b48dc67054644eaa9e278fc' => '1461847139,1461911342,1461924151,1461933539'
+    'ECS' => [
+        'visit_times' => '10'
+    ]
+    '_ga' => 'GA1.1.665754247.1471596877'
+    'Hm_lvt_e9e114d958ea263de46e080563e254c4' => '1472872809,1472880768'
+    'pgv_pvi' => '4320408576'
+    'Hm_lvt_2e66c26c9d62324132291faf1862cfa5' => '1472884720'
+    'sgsa_id' => 'localhost|1472884720597584'
+    'bdshare_firstime' => '1472884725404'
+    '__utma' => '111872281.665754247.1471596877.1472884727.1472884727.1'
+    '__utmz' => '111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA2652861' => 'cnzz_eid=455524242-1473209480-http%3A%2F%2Flocalhost%2F&ntime=1474677243'
+    'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6' => '1473642922,1473685314'
+    'Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6' => '1474534870,1474590947,1474610784'
+    'Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe' => '1474602324,1474610784'
+    'iweb_safecode' => 'cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI+YzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw'
+    'iweb_shoppingcart' => '10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4'
+    'CNZZDATA155540' => 'cnzz_eid=1970694984-1478218675-&ntime=1479298874'
+    'iweb_captcha' => '196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg'
+    'iweb_admin_role_name' => 'ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg'
+    'iweb_admin_id' => '81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx'
+    'iweb_admin_name' => '554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ/NjVkZmpqbg'
+    'iweb_admin_pwd' => 'cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng'
+    'think_template' => 'default'
+    '_csrf' => '0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc\";}'
+    'PHPSESSID' => 'b8q4pd1ekl91uo9ab5ntgil3q6'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/nine/recruit/admin/web/index.php?r=company%2Fperiod_add'
+    'HTTP_COOKIE' => 'Hm_lvt_12e233684b48dc67054644eaa9e278fc=1461847139,1461911342,1461924151,1461933539; ECS[visit_times]=10; _ga=GA1.1.665754247.1471596877; Hm_lvt_e9e114d958ea263de46e080563e254c4=1472872809,1472880768; pgv_pvi=4320408576; Hm_lvt_2e66c26c9d62324132291faf1862cfa5=1472884720; sgsa_id=localhost|1472884720597584; bdshare_firstime=1472884725404; __utma=111872281.665754247.1471596877.1472884727.1472884727.1; __utmz=111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA2652861=cnzz_eid%3D455524242-1473209480-http%253A%252F%252Flocalhost%252F%26ntime%3D1474677243; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1473642922,1473685314; Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6=1474534870,1474590947,1474610784; Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe=1474602324,1474610784; iweb_safecode=cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI%2BYzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw; iweb_shoppingcart=10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4; CNZZDATA155540=cnzz_eid%3D1970694984-1478218675-%26ntime%3D1479298874; iweb_captcha=196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg; iweb_admin_role_name=ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg; iweb_admin_id=81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx; iweb_admin_name=554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ%2FNjVkZmpqbg; iweb_admin_pwd=cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng; think_template=default; _csrf=0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc%22%3B%7D; PHPSESSID=b8q4pd1ekl91uo9ab5ntgil3q6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\wamp\\PHP\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\linux\\linux_SW\\SVN\\bin;E:\\9.Yii\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/nine/recruit/admin/web/index.php'
+    'REMOTE_PORT' => '50971'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=company/period'
+    'REQUEST_URI' => '/nine/recruit/admin/web/index.php?r=company/period'
+    'SCRIPT_NAME' => '/nine/recruit/admin/web/index.php'
+    'PHP_SELF' => '/nine/recruit/admin/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479299446.947
+    'REQUEST_TIME' => 1479299446
+]
+2016-11-16 13:39:40 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: request' in E:\wamp\www\nine\recruit\admin\controllers\CompanyController.php:52
+Stack trace:
+#0 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#4 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 E:\wamp\www\nine\recruit\admin\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-11-16 13:39:40 [::1][-][-][info][application] $_GET = [
+    'r' => 'company/company_add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_12e233684b48dc67054644eaa9e278fc' => '1461847139,1461911342,1461924151,1461933539'
+    'ECS' => [
+        'visit_times' => '10'
+    ]
+    '_ga' => 'GA1.1.665754247.1471596877'
+    'Hm_lvt_e9e114d958ea263de46e080563e254c4' => '1472872809,1472880768'
+    'pgv_pvi' => '4320408576'
+    'Hm_lvt_2e66c26c9d62324132291faf1862cfa5' => '1472884720'
+    'sgsa_id' => 'localhost|1472884720597584'
+    'bdshare_firstime' => '1472884725404'
+    '__utma' => '111872281.665754247.1471596877.1472884727.1472884727.1'
+    '__utmz' => '111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA2652861' => 'cnzz_eid=455524242-1473209480-http%3A%2F%2Flocalhost%2F&ntime=1474677243'
+    'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6' => '1473642922,1473685314'
+    'Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6' => '1474534870,1474590947,1474610784'
+    'Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe' => '1474602324,1474610784'
+    'iweb_safecode' => 'cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI+YzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw'
+    'iweb_shoppingcart' => '10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4'
+    'CNZZDATA155540' => 'cnzz_eid=1970694984-1478218675-&ntime=1479298874'
+    'iweb_captcha' => '196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg'
+    'iweb_admin_role_name' => 'ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg'
+    'iweb_admin_id' => '81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx'
+    'iweb_admin_name' => '554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ/NjVkZmpqbg'
+    'iweb_admin_pwd' => 'cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng'
+    'think_template' => 'default'
+    '_csrf' => '0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc\";}'
+    'PHPSESSID' => 'b8q4pd1ekl91uo9ab5ntgil3q6'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/nine/recruit/admin/web/index.php?r=company%2Findex'
+    'HTTP_COOKIE' => 'Hm_lvt_12e233684b48dc67054644eaa9e278fc=1461847139,1461911342,1461924151,1461933539; ECS[visit_times]=10; _ga=GA1.1.665754247.1471596877; Hm_lvt_e9e114d958ea263de46e080563e254c4=1472872809,1472880768; pgv_pvi=4320408576; Hm_lvt_2e66c26c9d62324132291faf1862cfa5=1472884720; sgsa_id=localhost|1472884720597584; bdshare_firstime=1472884725404; __utma=111872281.665754247.1471596877.1472884727.1472884727.1; __utmz=111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA2652861=cnzz_eid%3D455524242-1473209480-http%253A%252F%252Flocalhost%252F%26ntime%3D1474677243; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1473642922,1473685314; Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6=1474534870,1474590947,1474610784; Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe=1474602324,1474610784; iweb_safecode=cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI%2BYzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw; iweb_shoppingcart=10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4; CNZZDATA155540=cnzz_eid%3D1970694984-1478218675-%26ntime%3D1479298874; iweb_captcha=196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg; iweb_admin_role_name=ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg; iweb_admin_id=81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx; iweb_admin_name=554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ%2FNjVkZmpqbg; iweb_admin_pwd=cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng; think_template=default; _csrf=0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc%22%3B%7D; PHPSESSID=b8q4pd1ekl91uo9ab5ntgil3q6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\wamp\\PHP\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\linux\\linux_SW\\SVN\\bin;E:\\9.Yii\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/nine/recruit/admin/web/index.php'
+    'REMOTE_PORT' => '51190'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=company%2Fcompany_add'
+    'REQUEST_URI' => '/nine/recruit/admin/web/index.php?r=company%2Fcompany_add'
+    'SCRIPT_NAME' => '/nine/recruit/admin/web/index.php'
+    'PHP_SELF' => '/nine/recruit/admin/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479299980.649
+    'REQUEST_TIME' => 1479299980
+]
+2016-11-16 13:40:25 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Application::request()' in E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 E:\wamp\www\nine\recruit\admin\controllers\CompanyController.php(52): yii\base\Component->__call('request', Array)
+#1 E:\wamp\www\nine\recruit\admin\controllers\CompanyController.php(52): yii\web\Application->request()
+#2 [internal function]: app\controllers\CompanyController->actionCompany_add()
+#3 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('company_add', Array)
+#6 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('company/company...', Array)
+#7 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 E:\wamp\www\nine\recruit\admin\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-11-16 13:40:24 [::1][-][-][info][application] $_GET = [
+    'r' => 'company/company_add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_12e233684b48dc67054644eaa9e278fc' => '1461847139,1461911342,1461924151,1461933539'
+    'ECS' => [
+        'visit_times' => '10'
+    ]
+    '_ga' => 'GA1.1.665754247.1471596877'
+    'Hm_lvt_e9e114d958ea263de46e080563e254c4' => '1472872809,1472880768'
+    'pgv_pvi' => '4320408576'
+    'Hm_lvt_2e66c26c9d62324132291faf1862cfa5' => '1472884720'
+    'sgsa_id' => 'localhost|1472884720597584'
+    'bdshare_firstime' => '1472884725404'
+    '__utma' => '111872281.665754247.1471596877.1472884727.1472884727.1'
+    '__utmz' => '111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA2652861' => 'cnzz_eid=455524242-1473209480-http%3A%2F%2Flocalhost%2F&ntime=1474677243'
+    'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6' => '1473642922,1473685314'
+    'Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6' => '1474534870,1474590947,1474610784'
+    'Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe' => '1474602324,1474610784'
+    'iweb_safecode' => 'cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI+YzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw'
+    'iweb_shoppingcart' => '10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4'
+    'CNZZDATA155540' => 'cnzz_eid=1970694984-1478218675-&ntime=1479298874'
+    'iweb_captcha' => '196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg'
+    'iweb_admin_role_name' => 'ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg'
+    'iweb_admin_id' => '81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx'
+    'iweb_admin_name' => '554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ/NjVkZmpqbg'
+    'iweb_admin_pwd' => 'cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng'
+    'think_template' => 'default'
+    '_csrf' => '0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc\";}'
+    'PHPSESSID' => 'b8q4pd1ekl91uo9ab5ntgil3q6'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/nine/recruit/admin/web/index.php?r=company%2Findex'
+    'HTTP_COOKIE' => 'Hm_lvt_12e233684b48dc67054644eaa9e278fc=1461847139,1461911342,1461924151,1461933539; ECS[visit_times]=10; _ga=GA1.1.665754247.1471596877; Hm_lvt_e9e114d958ea263de46e080563e254c4=1472872809,1472880768; pgv_pvi=4320408576; Hm_lvt_2e66c26c9d62324132291faf1862cfa5=1472884720; sgsa_id=localhost|1472884720597584; bdshare_firstime=1472884725404; __utma=111872281.665754247.1471596877.1472884727.1472884727.1; __utmz=111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA2652861=cnzz_eid%3D455524242-1473209480-http%253A%252F%252Flocalhost%252F%26ntime%3D1474677243; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1473642922,1473685314; Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6=1474534870,1474590947,1474610784; Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe=1474602324,1474610784; iweb_safecode=cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI%2BYzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw; iweb_shoppingcart=10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4; CNZZDATA155540=cnzz_eid%3D1970694984-1478218675-%26ntime%3D1479298874; iweb_captcha=196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg; iweb_admin_role_name=ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg; iweb_admin_id=81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx; iweb_admin_name=554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ%2FNjVkZmpqbg; iweb_admin_pwd=cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng; think_template=default; _csrf=0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc%22%3B%7D; PHPSESSID=b8q4pd1ekl91uo9ab5ntgil3q6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\wamp\\PHP\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\linux\\linux_SW\\SVN\\bin;E:\\9.Yii\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/nine/recruit/admin/web/index.php'
+    'REMOTE_PORT' => '51191'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=company%2Fcompany_add'
+    'REQUEST_URI' => '/nine/recruit/admin/web/index.php?r=company%2Fcompany_add'
+    'SCRIPT_NAME' => '/nine/recruit/admin/web/index.php'
+    'PHP_SELF' => '/nine/recruit/admin/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479300024.981
+    'REQUEST_TIME' => 1479300024
+]
+2016-11-16 13:48:30 [::1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'htmlspecialchars(): charset `utf8' not supported, assuming utf-8' in E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\helpers\BaseHtml.php:104
+Stack trace:
+#0 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\helpers\BaseHtml.php(1789): yii\helpers\BaseHtml::encode()
+#1 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\helpers\BaseHtml.php(143): yii\helpers\BaseHtml::renderTagAttributes()
+#2 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\widgets\LinkPager.php(219): yii\helpers\BaseHtml::tag()
+#3 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\widgets\LinkPager.php(174): yii\widgets\LinkPager->renderPageButton()
+#4 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\widgets\LinkPager.php(133): yii\widgets\LinkPager->renderPageButtons()
+#5 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Widget.php(102): yii\widgets\LinkPager->run()
+#6 E:\wamp\www\nine\recruit\admin\views\company\period.php(39): yii\base\Widget::widget()
+#7 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#8 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#9 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#10 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render()
+#11 E:\wamp\www\nine\recruit\admin\controllers\CompanyController.php(256): yii\base\Controller->render()
+#12 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\CompanyController->actionPeriod()
+#13 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#14 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#15 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#16 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction()
+#17 E:\wamp\www\nine\recruit\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#18 E:\wamp\www\nine\recruit\admin\web\index.php(18): yii\base\Application->run()
+#19 {main}
+2016-11-16 13:48:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'company/period'
+]
+
+$_COOKIE = [
+    'Hm_lvt_12e233684b48dc67054644eaa9e278fc' => '1461847139,1461911342,1461924151,1461933539'
+    'ECS' => [
+        'visit_times' => '10'
+    ]
+    '_ga' => 'GA1.1.665754247.1471596877'
+    'Hm_lvt_e9e114d958ea263de46e080563e254c4' => '1472872809,1472880768'
+    'pgv_pvi' => '4320408576'
+    'Hm_lvt_2e66c26c9d62324132291faf1862cfa5' => '1472884720'
+    'sgsa_id' => 'localhost|1472884720597584'
+    'bdshare_firstime' => '1472884725404'
+    '__utma' => '111872281.665754247.1471596877.1472884727.1472884727.1'
+    '__utmz' => '111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA2652861' => 'cnzz_eid=455524242-1473209480-http%3A%2F%2Flocalhost%2F&ntime=1474677243'
+    'Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6' => '1473642922,1473685314'
+    'Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6' => '1474534870,1474590947,1474610784'
+    'Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe' => '1474602324,1474610784'
+    'iweb_safecode' => 'cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI+YzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw'
+    'iweb_shoppingcart' => '10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4'
+    'CNZZDATA155540' => 'cnzz_eid=1970694984-1478218675-&ntime=1479298874'
+    'iweb_captcha' => '196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg'
+    'iweb_admin_role_name' => 'ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg'
+    'iweb_admin_id' => '81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx'
+    'iweb_admin_name' => '554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ/NjVkZmpqbg'
+    'iweb_admin_pwd' => 'cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng'
+    'think_template' => 'default'
+    '_csrf' => '0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc\";}'
+    'PHPSESSID' => 'b8q4pd1ekl91uo9ab5ntgil3q6'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/nine/recruit/admin/web/index.php?r=company%2Fperiod_add'
+    'HTTP_COOKIE' => 'Hm_lvt_12e233684b48dc67054644eaa9e278fc=1461847139,1461911342,1461924151,1461933539; ECS[visit_times]=10; _ga=GA1.1.665754247.1471596877; Hm_lvt_e9e114d958ea263de46e080563e254c4=1472872809,1472880768; pgv_pvi=4320408576; Hm_lvt_2e66c26c9d62324132291faf1862cfa5=1472884720; sgsa_id=localhost|1472884720597584; bdshare_firstime=1472884725404; __utma=111872281.665754247.1471596877.1472884727.1472884727.1; __utmz=111872281.1472884727.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA2652861=cnzz_eid%3D455524242-1473209480-http%253A%252F%252Flocalhost%252F%26ntime%3D1474677243; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1473642922,1473685314; Hm_lvt_d64af1f3b8e241d56f0536501d4bfdd6=1474534870,1474590947,1474610784; Hm_lvt_070eea23fda7f8aa624dfc4245be3cbe=1474602324,1474610784; iweb_safecode=cfb50bcb4eMzM3MzUzMDAyMGVtNTMzYzUyYTExMzRgYTk0MTI%2BYzI3MmUwMWZhMTdnODgxNDIxMzUyNDNgbzQ4NTQ8ZzhqMw; iweb_shoppingcart=10b57462dfMjAxMDc4OTE5NjEyMmI0YzBkYWQxMj9jMzVjZmM3MzN7Lm5ub2R3JjpSWiQjcHJsY3NjdCA4Xlx4; CNZZDATA155540=cnzz_eid%3D1970694984-1478218675-%26ntime%3D1479298874; iweb_captcha=196594be54MDcwMDUwMzA0MDowMTJgYWNlYG9lMWZkNTU2MGI5Zmh1YXBseg; iweb_admin_role_name=ec68be0414MDAwNzAxMDA0MGRgMTxhOWVmMzIyZ2FlNGNiPTswNjzvtoHnuqfurqHikIDnkZg; iweb_admin_id=81c0b778c2MDAwMjA4ODAwOTFjMDo4NDcyZDEyNj02MTw5MTMzOTUx; iweb_admin_name=554ce77966MTMwMjAwNjMyMDk1YzFhYWNiODE0NzI2NzJkOTQ%2FNjVkZmpqbg; iweb_admin_pwd=cdd5eb25aaNDUwMDczNDUwNGI5MzgzbGBiOmI9ZTc0N2pjNTI4ODMwMTw0MDIzYT5iamIxMTs1MjUxNmY3PjBnYjE4YjI4Ng; think_template=default; _csrf=0cd42824f338a666b96ef5b23b3ecda1ed9884fc99173ccb96a131c63ccd75a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22rocG9oqrDGbQCdbsZwrOtykdOjPlnrZc%22%3B%7D; PHPSESSID=b8q4pd1ekl91uo9ab5ntgil3q6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;E:\\wamp\\PHP\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\linux\\linux_SW\\SVN\\bin;E:\\9.Yii\\TortoiseGit\\bin;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/nine/recruit/admin/web/index.php'
+    'REMOTE_PORT' => '51278'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=company/period'
+    'REQUEST_URI' => '/nine/recruit/admin/web/index.php?r=company/period'
+    'SCRIPT_NAME' => '/nine/recruit/admin/web/index.php'
+    'PHP_SELF' => '/nine/recruit/admin/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479300510.576
+    'REQUEST_TIME' => 1479300510
+]

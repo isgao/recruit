@@ -23,15 +23,15 @@ use yii\widgets\LinkPager;      //分页
                 <table class="result-tab">
                     <tr>
                         <th class="" width="5%"><input class="allChoose" name="" type="checkbox"></th>
-                        <th>公司规模</th>
-                        <th>添加时间</th>
+                        <th>排序</th>
+                        <th>标签</th>
                         <th>操作</th>
                     </tr>
                     <?php foreach($tag as $k=>$v):?>
                     <tr class="<?=$v['tag_id']?>">
                         <td class="tc"><input name="id[]" value="<?=$v['tag_id']?>" type="checkbox"></td>
-                        <td id="<?=$v['tag_id']?>"><span class="tag_name"><?=$v['min']?>~<?=$v['max']?></span>人 </td>
-                        <td><?=$v['add_time']?></td>
+                        <td id="<?=$v['tag_id']?>"><?=$v['sort']?></td>
+                        <td><span class="tag_name"><?=$v['tag_name']?></span></td>
                         <td>
                             <a class="link-del" href="javascript:void(0);">删除</a>
                         </td>

@@ -38,7 +38,45 @@ class CompanyController extends Controller
 		$data['company'] = $query->offset($pagination->offset)->limit($pagination->limit)->asArray()->all();
 		$data['pagination'] = $pagination;
 
+		//查询行业领域
+		$data['territory'] = Territory::find()->asArray()->all();
+
 		return $this->render('index',$data);
+	}
+
+	/**
+	 * 新增公司
+	 */
+	public function actionCompany_add()
+	{
+		$request = Yii::$app->request;
+
+		if($request->isPost){
+			$company = new Company();
+			$company->short_name = $request->post('short_name');
+			$company->full_name = $request->post('full_name');
+			//$company->logo = $request->post('logo');
+			$company->site_url = $request->post('site_url');
+			$company->city = $request->post('city');
+			$company->period_id = $request->post('period_id');
+			$company->investor = $request->post('investor');
+			$company->brief_intro = $request->post('brief_intro');
+			$company->intro = $request->post('intro');
+			$company->status = 1;		//默认待审核
+			$res = $company->save();
+
+			if($res){
+				exit("<script>alert('添加成功');location.href='index.php?r=company/index'</script>");
+			}else{
+				exit("<script>alert('添加失败');location.href='index.php?r=company/index'</script>");
+			}
+
+		}else{
+			//查询发展阶段
+			$data['period'] = Period::find()->asArray()->all();
+
+			return $this->render('company_add',$data);
+		}
 	}
 
 	/**
@@ -67,13 +105,9 @@ class CompanyController extends Controller
 		$request = Yii::$app->request;
 		
 		if($request->isPost){
-			$min = $request->post('min');
-			$max = $request->post('max');
-
 			$tag = new Tag();
-			$tag->min = $min;
-			$tag->max = $max;
-			$tag->add_time = date('Y-m-d H:i:s');
+			$tag->tag_name = $request->post('tag_name');
+			$tag->sort = $request->post('sort');
 			$res = $tag->save();
 
 			if($res){
@@ -82,7 +116,7 @@ class CompanyController extends Controller
 				exit("<script>alert('添加失败');location.href='index.php?r=company/tag'</script>");
 			}
 		}else{
-			return $this->render('scale_add');
+			return $this->render('tag_add');
 		}
 	}
 
@@ -245,6 +279,43 @@ class CompanyController extends Controller
 		}else{
 			//echo 2;
 			return $this->render('period_add');
+		}
+	}
+
+	/**
+	 * 删除融资阶段
+	 */
+	public function actionPeriod_delete()
+	{
+		$request = Yii::$app->request;
+
+		$id = $request->get('id');
+
+		$period = Period::findOne($id);
+		$res = $period->delete();
+
+		if($res){
+			echo 'ok';
+		}
+	}
+
+	/**
+	 * 融资阶段 即点即改
+	 */
+	public function actionPeriod_update()
+	{
+		$request = Yii::$app->request;
+
+		$name = $request->get('name');
+		$id = $request->get('id');
+		//print_r($name);
+
+		$period = Period::findOne($id);
+		$period->name = $name;
+		$res = $period->save();
+
+		if($res){
+			echo 'ok';
 		}
 	}
 

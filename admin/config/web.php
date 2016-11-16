@@ -6,6 +6,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'charset' => 'utf-8',
     'components' => [
         'cache' => [  
             'class' => 'yii\caching\MemCache',  

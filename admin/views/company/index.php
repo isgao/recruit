@@ -20,7 +20,9 @@ use yii\widgets\LinkPager;      //分页
                         <td>
                             <select name="search-sort" id="">
                                 <option value="">全部</option>
-                                <option value="19">精品界面</option><option value="20">推荐界面</option>
+                                <?php foreach($territory as $k=>$v):?>
+                                    <option value="<?=$v['territory_id']?>"><?=$v['name']?></option>
+                                <?php endforeach;?>
                             </select>
                         </td>
                         <th width="70">关键字:</th>
@@ -35,6 +37,7 @@ use yii\widgets\LinkPager;      //分页
         <form name="myform" id="myform" method="post">
             <div class="result-title">
                 <div class="result-list">
+                    <a href="<?=URL::toRoute('company/company_add')?>"><i class="icon-font"></i>新增公司</a>
                     <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
                     <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a>
                 </div>
@@ -45,7 +48,7 @@ use yii\widgets\LinkPager;      //分页
                         <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
                         <th width="10%">商标</th>
                         <th width="15%">公司名称</th>
-                        <th width="10%">网址</th>
+                        <th width="20%">网址</th>
                         <th width="10%">状态</th>
                         <th>简介</th>
                         <th width="10%">操作</th>
@@ -57,7 +60,13 @@ use yii\widgets\LinkPager;      //分页
                         <td title=""><a target="_blank" href="#" title=""><?=$v['full_name']?></a>
                         </td>
                         <td><?=$v['site_url']?></td>
-                        <td></td>
+                        <td>
+                            <?php if($v['status'] == 1){?>
+                                待审核
+                            <?php }else{?>
+                                正常
+                            <?php };?>
+                        </td>
                         <td><?=$v['brief_intro']?></td>
                         <td>
                             <a class="link-update" href="#">修改</a>
