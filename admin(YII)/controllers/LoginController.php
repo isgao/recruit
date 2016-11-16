@@ -2,26 +2,39 @@
 
 namespace app\controllers;
 
-header("Content-Type:text/html;charset=UTF-8");
 use Yii;
 use yii\web\Controller;
 use app\models\Rec_admin;
 use yii\web\session;
-
+/**
+ * 后台登录
+ */
 class LoginController extends Controller
 {
+    /**
+     * 后台主页
+     */
 	public function actionIndex(){
         return $this->render('index');
 	}
+
+    /**
+     * 登录页面
+     */
     public function actionLogin(){
         return $this->render('login');
     }
 
-
+    /**
+     * 验证账户
+     */
     public function actionWelcomed()
     {
-    	// echo 1;
+    	//echo 1;
+        //请求组件
     	$request = \Yii::$app->request;
+
+        //接收信息
     	$username = $request->post('username');
     	$pwd = MD5($request->post('password'));
     	// var_dump($pwd);
@@ -46,12 +59,14 @@ class LoginController extends Controller
     	}
     }
 
+    /**
+     * 安全退出
+     */
     public function actionExit()
     {
          $session = Yii::$app->session;
           unset($session['username']);
           return $this->redirect('index.php?r=login/login');
-
     }
 
 }

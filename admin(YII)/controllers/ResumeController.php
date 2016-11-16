@@ -1,7 +1,7 @@
 <?php
 
 namespace app\controllers;
-header("Content-Type:text/html;charset=UTF-8");
+
 use Yii;
 use yii\web\Controller;
 use app\models\RecUser;
@@ -25,7 +25,7 @@ class ResumeController extends Controller
         $id = $request->get('id');
         $resumes = new RecResume;
         $res =  $resumes->find()->where(['r_id'=>$id])->one();
-//        var_dump($res);die;
+        //var_dump($res);die;
         $see = $res->delete();
         if($see){
             return $this->redirect('index.php?r=resume/show');
@@ -39,7 +39,7 @@ class ResumeController extends Controller
         $position_city = $request->post('ad');
         $resume_status = $request->post('resume_status');
         $user_status = $request->post('user_status');
-//        var_dump($user_status);die;
+        //var_dump($user_status);die;
         $new = new RecResume;
         $obj = $new->find()->where(['r_id'=>$id])->one();
         $obj->position_city=$position_city;
