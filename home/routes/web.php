@@ -22,3 +22,5 @@ Route::post('/reg_act', 'SimpleController@reg_act')->middleware('regCheck');;
 Route::get('/login', function(){
 	return view('simple.login');
 });
+Route::post('/login_act','SimpleController@login_act');
+Route::get('/jianli','ResumeaddController@index');

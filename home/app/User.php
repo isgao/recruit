@@ -13,4 +13,5 @@ class User extends Model
 	protected $table = 'user';
 	//关闭时间戳
     public $timestamps = false;
+
 }

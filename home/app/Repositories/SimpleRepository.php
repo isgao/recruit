@@ -37,7 +37,7 @@ class SimpleRepository
                 $companyObj = new Company;
                 $companyObj->email = Input::get('email');
                 $companyObj->password = Hash::make(Input::get('password'));
-                $userObj->create_time = date("Y-m-d H:i:s",time());
+                $companyObj->create_time = date("Y-m-d H:i:s",time());
                 $res = $companyObj->save();
                 break;
         }
@@ -51,5 +51,25 @@ class SimpleRepository
         {
             return '{"success":"false","msg":"注册失败"}';
         }
+
     }
+    public function sel($data){
+        $arr = User::where('email',$data['email'])->first();
+//        return $data['password'];
+        if($arr!=null){
+            $bool = Hash::check($data['password'],$arr->password);
+//            Hash::check('plain-text', $hashedPassword);
+           // return $bool;
+            if($bool){
+                //dd($arr->username);
+                return $arr;
+            }else{
+                return false;
+            }
+        }else{
+            return false;
+        }
+//        return $arr;
+     }
+
 }

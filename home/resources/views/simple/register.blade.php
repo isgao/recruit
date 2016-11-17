@@ -32,7 +32,7 @@
 
 @section('jump')
 	<div>已有拉勾帐号</div>
-	<a  href="login.html"  class="registor_now">直接登录</a>
+	<a  href="login"  class="registor_now">直接登录</a>
 @endsection
              
 @section('script')
