@@ -47,7 +47,8 @@
             </ul>
             <dl class="collapsible_menu">
                 <dt>
-                    <span>张三&nbsp;</span>
+                    <span>
+                            {{session('username')}}&nbsp;</span>
                     <span class="red dn" id="noticeDot-0"></span>
                     <i></i>
                 </dt>
@@ -73,11 +74,17 @@
             <div class="content_l">
                 <div class="fl" id="resume_name">
                     <div class="nameShow fl">
-                        <h1 title="jason的简历">张三的简历</h1>
+                        <h1 title="
+                           <?php $thirdCate = App\Classes\Api::run('getUser',array('#session_username#',session('username')));
+                                echo $thirdCate[0]->username;
+                        ?>
+                            的简历">
+                          <?php  echo $thirdCate[0]->username;?>  的简历</h1>
                         <span class="rename">重命名</span> | <a target="_blank" href="h/resume/preview.html">预览</a>
                     </div>
                     <form class="fl dn" id="resumeNameForm">
-                        <input type="text" value="张三的简历" name="resumeName" class="nameEdit c9">
+                        <input type="text" value="
+                             <?php  echo $thirdCate[0]->username;?> 的简历" name="resumeName" class="nameEdit c9">
                         <input type="submit" value="保存"> | <a target="_blank" href="h/resume/preview.html">预览</a>
                     </form>
                 </div><!--end #resume_name-->
@@ -98,8 +105,9 @@
                     <h2>基本信息</h2>
                     <span class="c_edit"></span>
                     <div class="basicShow">
-            			            			<span>张三 |  男 |    本科 |  3年工作经验<br>
-            			            			18712198888 | 1865495185@qq.com<br>
+                        <span>
+                            <?php  echo $thirdCate[0]->username;?>  |   <?php  echo $thirdCate[0]->username;?>  |   本科 |  3年工作经验<br>
+                                <?php  echo $thirdCate[0]->phone;?>  |  <?php  echo $thirdCate[0]->email;?> <br>
             			</span>
                         <div class="m_portrait">
                             <div></div>
@@ -229,7 +237,8 @@
                             <span style="display:none;" id="headPic_error" class="error"></span>
                         </div><!--end .new_portrait-->
                     </div><!--end .basicEdit-->
-                    <input type="hidden" id="nameVal" value="张三">
+                    <input type="hidden" id="nameVal" value="
+                            {{session('username')}}">
                     <input type="hidden" id="genderVal" value="男">
                     <input type="hidden" id="topDegreeVal" value="大专">
                     <input type="hidden" id="workyearVal" value="5年">
