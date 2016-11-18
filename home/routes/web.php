@@ -24,3 +24,7 @@ Route::get('/login', function(){
 });
 Route::post('/login_act','SimpleController@login_act');
 Route::get('/jianli','ResumeaddController@index');
+
+//QQ登录
+Route::get('/auth/qq', 'SimpleController@qq');
+Route::get('/auth/qq_callback', 'SimpleController@qq_callback');
