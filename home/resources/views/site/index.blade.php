@@ -1,7 +1,6 @@
 ﻿@extends('layouts.site')
 
 @section('title', '请输入此页面title')
-
 @section('content')
 	<div id="sidebar">
         <!--职位分类 start-->

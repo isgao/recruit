@@ -41,7 +41,7 @@
         			<img src="style/images/logo.png" width="229" height="43" alt="拉勾招聘-专注互联网招聘" />
         		</a>
         		<ul class="reset" id="navheader">
-        			<li class="current"><a href="index.html">首页</a></li>
+        			<li class="current"><a href="index.html">首页<?php echo e(request()->cookie('fork')); ?></a></li>
         			<li ><a href="companylist.html" >公司</a></li>
         			<li ><a href="#" target="_blank">论坛</a></li>
         				    			<li ><a href="jianli.html" rel="nofollow">我的简历</a></li>

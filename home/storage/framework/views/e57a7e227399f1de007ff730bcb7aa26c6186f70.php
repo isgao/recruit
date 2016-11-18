@@ -1,7 +1,6 @@
 ﻿
 
 <?php $__env->startSection('title', '请输入此页面title'); ?>
-
 <?php $__env->startSection('content'); ?>
 	<div id="sidebar">
         <!--职位分类 start-->

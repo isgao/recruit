@@ -13,8 +13,8 @@ class SiteController extends Controller
 	/**
 	 * [index 前台主页]
 	 */
-    public function index()
+    public function index(Request $request)
     {
-    	return view('site.index');
+    	return response()->view('site.index')->cookie('fork', 'stone', 200);
     }
 }

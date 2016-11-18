@@ -90,10 +90,10 @@ return array(
     'getUser'=>array(
         'query'=>array(
             'name'=>'user',
+            'join'=>'experience as e,user.work_experience,e.experience_id',
             'where'=>'username,#session_username#'
         )
     ),
-
 	//示例
 	'getCompanyList' => array(
 		'file' => 'Company.php','class' => 'APICompany'
