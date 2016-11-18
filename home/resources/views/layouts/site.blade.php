@@ -20,10 +20,14 @@
     <link rel="stylesheet" type="text/css" href="style/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="style/css/external.min.css"/>
     <link rel="stylesheet" type="text/css" href="style/css/popup.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css"/>
+    
     <script src="style/js/jquery.1.10.1.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="style/js/jquery.lib.min.js"></script>
     <script src="style/js/ajaxfileupload.js" type="text/javascript"></script>
     <script type="text/javascript" src="style/js/additional-methods.js"></script>
+    <script type="text/javascript" src="js/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/artTemplate.js"></script>
     <!--[if lte IE 8]>
         <script type="text/javascript" src="style/js/excanvas.js"></script>
     <![endif]-->
@@ -33,6 +37,7 @@
     <script type="text/javascript" src="style/js/conv.js"></script> -->
 </head>
 <body>
+    @include('sweet::alert')
     <div id="body">
         <!-- start #header -->
     	<div id="header">
@@ -53,6 +58,8 @@
                                 登陆</a></li>
                         <li>|</li>
                         <li><a href="reg" rel="nofollow">注册</a></li>
+                        <li><a href="javascript:login_in();" rel="nofollow">快速登录</a></li>
+                        
             @else
                 	<li><a rel="nofollow">欢迎
                             {{session('username')}}
@@ -83,27 +90,15 @@
                 </div>
             </div>-->
 
-            <!------------------------------弹窗lightbox  ------------------------------------------>
-            <div style="display:none;">
-                <!-- 登录框 -->
-                <div id="loginPop" class="popup" style="height:240px;">
-                    <form id="loginForm">
-                        <input type="text" id="email" name="email" tabindex="1" placeholder="请输入登录邮箱地址" />
-                        <input type="password" id="password" name="password" tabindex="2" placeholder="请输入密码" />
-                        <span class="error" style="display:none;" id="beError"></span>
-                        <label class="fl" for="remember"><input type="checkbox" id="remember" value="" checked="checked" name="autoLogin" /> 记住我</label>
-                        <a href="h/reset.html" class="fr">忘记密码？</a>
-                        <input type="submit" id="submitLogin" value="登 &nbsp; &nbsp; 录" />
-                    </form>
-                    <div class="login_right">
-                        <div>还没有拉勾帐号？</div>
-                        <a href="reg" class="registor_now">立即注册</a>
-                        <div class="login_others">使用以下帐号直接登录:</div>
-                        <a href="h/ologin/auth/sina.html" target="_blank" id="icon_wb" class="icon_wb" title="使用新浪微博帐号登录"></a>
-                        <a href="{{action('SimpleController@qq')}}" class="icon_qq" id="icon_qq" target="_blank" title="使用腾讯QQ帐号登录" ></a>
-                    </div>
-                </div><!--/#loginPop-->
+    <!------------------------------弹窗lightbox  ------------------------------------------>
+    <script type="text/html" id="loginBlock">
+        <!-- 登录框 -->
+            <div>
+                <span>使用QQ/微博帐号直接登录:</span>
+                <a href="h/ologin/auth/sina.html" target="_blank" id="icon_wb" class="icon_wb" title="使用新浪微博帐号登录"></a>
+                <a href="<?php echo action('SimpleController@qq')?>" class="icon_qq" id="icon_qq" target="_blank" title="使用腾讯QQ帐号登录" ></a>
             </div>
+    </script>
             <!------------------------------lightbox end-------------------------------------------->
             <script type="text/javascript" src="style/js/Chart.min.js"></script>
             <script type="text/javascript" src="style/js/home.min.js"></script>
@@ -127,4 +122,18 @@
         <script type="text/javascript" src="style/js/popup.min.js"></script>
 
     </body>
+    <script type="text/javascript">
+        function login_in()
+        {
+            var list = {};
+            var _html = template('loginBlock',list);
+            console.log(_html);
+            swal({
+                title: "快速登录",
+                text: _html,
+                animation: "slide-from-top",
+                html: true,
+            })
+        }
+    </script>
 </html> 

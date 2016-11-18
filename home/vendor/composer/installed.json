@@ -3981,5 +3981,58 @@
             }
         ],
         "description": "Qq.com OAuth2 Provider for Laravel Socialite"
+    },
+    {
+        "name": "uxweb/sweet-alert",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uxweb/sweet-alert.git",
+            "reference": "73518d53bd46bbccd6857838b0f0ed268471b654"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/uxweb/sweet-alert/73518d53bd46bbccd6857838b0f0ed268471b654.zip",
+            "reference": "73518d53bd46bbccd6857838b0f0ed268471b654",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/session": "~5.0",
+            "illuminate/support": "~5.0",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "^0.9.5",
+            "phpunit/phpunit": "^5.5"
+        },
+        "time": "2016-08-15 00:29:11",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "UxWeb\\SweetAlert\\": "src/SweetAlert/"
+            },
+            "files": [
+                "src/SweetAlert/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Uziel Bueno",
+                "email": "ux.webs@gmail.com"
+            }
+        ],
+        "description": "A simple PHP package to show Sweet Alerts with the Laravel Framework",
+        "keywords": [
+            "alert",
+            "laravel",
+            "notifier",
+            "sweet"
+        ]
     }
 ]
