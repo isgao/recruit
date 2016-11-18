@@ -27,10 +27,10 @@
     <!--[if lte IE 8]>
         <script type="text/javascript" src="style/js/excanvas.js"></script>
     <![endif]-->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     var youdao_conv_id = 271546; 
     </script> 
-    <script type="text/javascript" src="style/js/conv.js"></script>
+    <script type="text/javascript" src="style/js/conv.js"></script> -->
 </head>
 <body>
     <div id="body">
@@ -41,18 +41,27 @@
         			<img src="style/images/logo.png" width="229" height="43" alt="拉勾招聘-专注互联网招聘" />
         		</a>
         		<ul class="reset" id="navheader">
-        			<li class="current"><a href="index.html">首页<?php echo e(request()->cookie('fork')); ?></a></li>
+        			<li class="current"><a href="index.html">首页</a></li>
         			<li ><a href="companylist.html" >公司</a></li>
         			<li ><a href="#" target="_blank">论坛</a></li>
-        				    			<li ><a href="jianli.html" rel="nofollow">我的简历</a></li>
+        				    			<li ><a href="jianli" rel="nofollow">我的简历</a></li>
     	    							    			<li ><a href="create.html" rel="nofollow">发布职位</a></li>
-    	    		    		</ul>
-            	            <ul class="loginTop">
-                	<li><a href="login.html" rel="nofollow">登录</a></li> 
-                	<li>|</li>
-                	<li><a href="register.html" rel="nofollow">注册</a></li>
                 </ul>
-                                    </div>
+                <ul class="loginTop">
+        <?php if(session('username')==''): ?>
+                        <li><a href="login" rel="nofollow">
+                                登陆</a></li>
+                        <li>|</li>
+                        <li><a href="reg" rel="nofollow">注册</a></li>
+            <?php else: ?>
+                	<li><a rel="nofollow">欢迎
+                            <?php echo e(session('username')); ?>
+
+                            登陆</a></li>
+                	<li>
+            <?php endif; ?>
+                </ul>
+            </div>
         </div>
         <!-- end #header -->
         
@@ -89,10 +98,10 @@
                     </form>
                     <div class="login_right">
                         <div>还没有拉勾帐号？</div>
-                        <a href="register.html" class="registor_now">立即注册</a>
+                        <a href="reg" class="registor_now">立即注册</a>
                         <div class="login_others">使用以下帐号直接登录:</div>
                         <a href="h/ologin/auth/sina.html" target="_blank" id="icon_wb" class="icon_wb" title="使用新浪微博帐号登录"></a>
-                        <a href="h/ologin/auth/qq.html" class="icon_qq" id="icon_qq" target="_blank" title="使用腾讯QQ帐号登录" ></a>
+                        <a href="<?php echo e(action('SimpleController@qq')); ?>" class="icon_qq" id="icon_qq" target="_blank" title="使用腾讯QQ帐号登录" ></a>
                     </div>
                 </div><!--/#loginPop-->
             </div>

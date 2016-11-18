@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Socialite;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Repositories\SimpleRepository;
@@ -32,20 +33,70 @@ class SimpleController extends Controller
     }
 
     /**
+<<<<<<< HEAD
      * [login_act 登录]
+=======
+     * [login_act 用户登录]
+>>>>>>> a1bb675e87170defcb8699ae6a8282c5b55aa0ae
      * @param  Request $request [description]
      * @return [type]           [description]
      */
     public function login_act(Request $request){
         $data = $request->input();
         $arr = $this->simple->sel($data);
+<<<<<<< HEAD
         //var_dump($data);die;
         if($arr){
+=======
+        if($arr)
+        {
+>>>>>>> a1bb675e87170defcb8699ae6a8282c5b55aa0ae
             $request->session()->put('username',$arr->username);
-            //dd($arr)
             return redirect('/');
-        }else{
+        }
+        else
+        {
             echo "<script>alert('请输入正确的账号和密码!');</script>";
         }
+    }
+
+    /**
+     * [qq QQ登录页面]
+     * @return [type] [description]
+     */
+    public function qq()
+    {
+        return Socialite::driver('qq')->redirect();
+    }
+
+    /**
+     * [qq_act QQ信息回调]
+     * @return [type] [description]
+     */
+    public function qq_callback(Request $request)
+    {
+        //session(['state'=>$request->input('state')]);
+        $user = Socialite::driver('qq')->user();
+        echo "
+       <center>
+           <table>
+               <tr>
+                   <td>姓名：</td>
+                   <td>{$user->user['nickname']}</td>
+               </tr>
+               <tr>
+                   <td>头像：</td>
+                   <td><img src='{$user->user['figureurl_qq_2']}'/></td>
+               </tr>
+               <tr>
+                   <td>地址：</td>
+                   <td>{$user->user['province']}-{$user->user['city']}</td>
+               </tr>
+               <tr>
+                   <td>出生年份</td>
+                   <td>{$user->user['year']}</td>
+               </tr>
+           </table>
+       </center>";
     }
 }

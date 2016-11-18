@@ -27,10 +27,10 @@
     <!--[if lte IE 8]>
         <script type="text/javascript" src="style/js/excanvas.js"></script>
     <![endif]-->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     var youdao_conv_id = 271546; 
     </script> 
-    <script type="text/javascript" src="style/js/conv.js"></script>
+    <script type="text/javascript" src="style/js/conv.js"></script> -->
 </head>
 <body>
     <div id="body">
@@ -100,7 +100,7 @@
                         <a href="reg" class="registor_now">立即注册</a>
                         <div class="login_others">使用以下帐号直接登录:</div>
                         <a href="h/ologin/auth/sina.html" target="_blank" id="icon_wb" class="icon_wb" title="使用新浪微博帐号登录"></a>
-                        <a href="h/ologin/auth/qq.html" class="icon_qq" id="icon_qq" target="_blank" title="使用腾讯QQ帐号登录" ></a>
+                        <a href="{{action('SimpleController@qq')}}" class="icon_qq" id="icon_qq" target="_blank" title="使用腾讯QQ帐号登录" ></a>
                     </div>
                 </div><!--/#loginPop-->
             </div>
