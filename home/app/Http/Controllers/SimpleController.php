@@ -30,10 +30,16 @@ class SimpleController extends Controller
     	$res = $this->simple->reg();
         return $res;
     }
+
+    /**
+     * [login_act 登录]
+     * @param  Request $request [description]
+     * @return [type]           [description]
+     */
     public function login_act(Request $request){
         $data = $request->input();
         $arr = $this->simple->sel($data);
-//        var_dump($data);die;
+        //var_dump($data);die;
         if($arr){
             $request->session()->put('username',$arr->username);
             //dd($arr)

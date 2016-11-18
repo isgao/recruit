@@ -48,7 +48,7 @@
     	    							    			<li ><a href="create.html" rel="nofollow">发布职位</a></li>
                 </ul>
                 <ul class="loginTop">
-        @if(session('username')=='')
+            @if(session('username')=='')
                         <li><a href="login" rel="nofollow">
                                 登陆</a></li>
                         <li>|</li>
