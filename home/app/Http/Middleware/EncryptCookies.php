@@ -14,5 +14,6 @@ class EncryptCookies extends BaseEncrypter
     protected $except = [
         //不加密的cookie名
         'fork',
+        'username',
     ];
 }

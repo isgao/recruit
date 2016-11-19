@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Alert;
 use Illuminate\Http\Request;
 
 /**
@@ -15,6 +16,7 @@ class SiteController extends Controller
 	 */
     public function index(Request $request)
     {
+    	alert('恭喜您中奖了！')->autoclose(4000);
     	return response()->view('site.index')->cookie('fork', 'stone', 200);
     }
 }
