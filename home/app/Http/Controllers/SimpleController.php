@@ -33,24 +33,16 @@ class SimpleController extends Controller
     }
 
     /**
-<<<<<<< HEAD
-     * [login_act 登录]
-=======
      * [login_act 用户登录]
->>>>>>> a1bb675e87170defcb8699ae6a8282c5b55aa0ae
      * @param  Request $request [description]
      * @return [type]           [description]
      */
     public function login_act(Request $request){
         $data = $request->input();
         $arr = $this->simple->sel($data);
-<<<<<<< HEAD
-        //var_dump($data);die;
-        if($arr){
-=======
+
         if($arr)
         {
->>>>>>> a1bb675e87170defcb8699ae6a8282c5b55aa0ae
             $request->session()->put('username',$arr->username);
             return redirect('/');
         }

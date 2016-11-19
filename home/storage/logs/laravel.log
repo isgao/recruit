@@ -15659,3 +15659,6 @@ Stack trace:
 #41 D:\project\recruit\home\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #42 {main}  
 >>>>>>> a1bb675e87170defcb8699ae6a8282c5b55aa0ae
+[2016-11-18 07:20:59] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '<<' (T_SL)' in E:\phpStudy\WWW\nine\recruit\home\app\Http\Controllers\SimpleController.php:47
+Stack trace:
+#0 {main}  
