@@ -26,7 +26,7 @@ class SimpleRepository
             //求职者注册    
             case '0':
                 $userObj = new User;
-                $userObj->email = Input::get('email');
+                $userObj->email = $userObj->username = Input::get('email');
                 $userObj->password = Hash::make(Input::get('password'));
                 $userObj->create_time = date("Y-m-d H:i:s",time());
                 $res = $userObj->save();

@@ -65,6 +65,9 @@
                             {{session('username')}}
                             登陆</a></li>
                 	<li>
+                    <li>
+                        <a href="exit">退出</a>
+                    </li>
             @endif
                 </ul>
             </div>

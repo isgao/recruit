@@ -19045,3 +19045,9 @@ Stack trace:
 #45 {main}  
 >>>>>>> 9a0a5cc60ecb9d4381025aa5c622de66e4c1d807
 >>>>>>> 5e00d2bd54a835dbb70e31d88bfa90cc1efdea2f
+[2016-11-19 03:22:11] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'exit' (T_EXIT), expecting identifier (T_STRING)' in E:\phpStudy\WWW\nine\recruit\home\app\Http\Controllers\SimpleController.php:61
+Stack trace:
+#0 {main}  
+[2016-11-19 03:23:41] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\Alert' not found' in E:\phpStudy\WWW\nine\recruit\home\app\Http\Controllers\SimpleController.php:65
+Stack trace:
+#0 {main}  

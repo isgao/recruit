@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Alert;
 use Socialite;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -44,12 +45,27 @@ class SimpleController extends Controller
         if($arr)
         {
             $request->session()->put('username',$arr->username);
+            //dd($arr);
             return redirect('/');
         }
         else
         {
             echo "<script>alert('请输入正确的账号和密码!');</script>";
         }
+    }
+
+    /**
+     * [exit  退出账户]
+     * @param  Request $request [description]
+     * @return [type] [description]
+     */
+    public function _exit(Request $request)
+    {
+        $request->session()->forget('username');
+
+        Alert::message('您已安全退出');
+
+        return response()->view('site.index');
     }
 
     /**
