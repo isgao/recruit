@@ -4034,5 +4034,58 @@
             "notifier",
             "sweet"
         ]
+    },
+    {
+        "name": "germey/geetest",
+        "version": "v1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Germey/LaravelGeetest.git",
+            "reference": "7b459f31d304b83b522a1e98b61bc82afce6c0a5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/Germey/LaravelGeetest/7b459f31d304b83b522a1e98b61bc82afce6c0a5.zip",
+            "reference": "7b459f31d304b83b522a1e98b61bc82afce6c0a5",
+            "shasum": ""
+        },
+        "require": {
+            "laravel/framework": "5.0.*|5.1.*|5.2.*|5.3.*",
+            "php": ">=5.5.9"
+        },
+        "require-dev": {
+            "mockery/mockery": "dev-master",
+            "phpunit/phpunit": "~4.1"
+        },
+        "time": "2016-10-10 11:59:55",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Germey\\Geetest\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Germey",
+                "email": "cqc@cuiqingcai.com"
+            }
+        ],
+        "description": "Geetest Package for Laravel5",
+        "keywords": [
+            "Germey",
+            "geetest",
+            "laravel"
+        ]
     }
 ]

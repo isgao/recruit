@@ -92,6 +92,7 @@ class ComposerStaticInit1274da8c82b8ce059239a405087b7955
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'Germey\\Geetest\\' => 15,
         ),
         'F' => 
         array (
@@ -264,6 +265,10 @@ class ComposerStaticInit1274da8c82b8ce059239a405087b7955
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Germey\\Geetest\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/germey/geetest/src',
         ),
         'Faker\\' => 
         array (
@@ -822,6 +827,10 @@ class ComposerStaticInit1274da8c82b8ce059239a405087b7955
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
+        'Germey\\Geetest\\CaptchaGeetest' => __DIR__ . '/..' . '/germey/geetest/src/CaptchaGeetest.php',
+        'Germey\\Geetest\\Geetest' => __DIR__ . '/..' . '/germey/geetest/src/Geetest.php',
+        'Germey\\Geetest\\GeetestLib' => __DIR__ . '/..' . '/germey/geetest/src/GeetestLib.php',
+        'Germey\\Geetest\\GeetestServiceProvider' => __DIR__ . '/..' . '/germey/geetest/src/GeetestServiceProvider.php',
         'GuzzleHttp\\Client' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Client.php',
         'GuzzleHttp\\ClientInterface' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/ClientInterface.php',
         'GuzzleHttp\\Cookie\\CookieJar' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Cookie/CookieJar.php',

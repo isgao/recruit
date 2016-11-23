@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'PRC',
 
     /*
     |--------------------------------------------------------------------------
@@ -170,7 +170,8 @@ return [
 
         //友好弹框
         UxWeb\SweetAlert\SweetAlertServiceProvider::class,
-
+        //验证图片
+        Germey\Geetest\GeetestServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -229,6 +230,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'Alert' => UxWeb\SweetAlert\SweetAlert::class,
+        'Geetest' => Germey\Geetest\Geetest::class,
     ],
 
 ];

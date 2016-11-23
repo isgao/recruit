@@ -14,8 +14,10 @@ var ctx = "h";
 </script>
 <link rel="Shortcut Icon" href="h/images/favicon.ico">
 <link rel="stylesheet" type="text/css" href="style/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/sweetalert.css"/>
 
 <script src="style/js/jquery.1.10.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/sweetalert.min.js"></script>
 
 <script type="text/javascript" src="style/js/jquery.lib.min.js"></script>
 <script type="text/javascript" src="style/js/core.min.js"></script>
@@ -28,6 +30,7 @@ var youdao_conv_id = 271546;
 </head>
 
 <body id="login_bg">
+	@include('sweet::alert')
 	<div class="login_wrapper">
 		<div class="login_header">
         	<a href="h/"><img src="style/images/logo_white.png" width="285" height="62" alt="拉勾招聘" /></a>
@@ -45,6 +48,7 @@ var youdao_conv_id = 271546;
 				<a  href="{{action('SimpleController@qq')}}"  class="icon_qq" target="_blank" title="使用腾讯QQ帐号登录"></a>
 			</div>
         </div>
+
         <div class="login_box_btm"></div>
 	</div>
 	@yield('script')

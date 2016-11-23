@@ -16,6 +16,9 @@ class EventServiceProvider extends ServiceProvider
         \SocialiteProviders\Manager\SocialiteWasCalled::class => [
             'SocialiteProviders\QQ\QqExtendSocialite@handle',
         ],
+        \App\Events\Register::class => [
+            'App\Listeners\BindAccountEmail',
+        ],
     ];
 
     /**

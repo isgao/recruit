@@ -4,19 +4,21 @@ namespace App\Http\Controllers;
 
 use Socialite;
 use Illuminate\Http\Request;
+use Germey\Geetest\CaptchaGeetest;
 use App\Http\Controllers\Controller;
 use App\Repositories\SimpleRepository;
 
 class SimpleController extends Controller
 {
+    use CaptchaGeetest;
+
+    protected $simple;
 
 	/**
      * simple仓库实例。
      * @var simpleRepository
      * @author [张石磊] <[<email address>]>
      */
-    protected $simple;
-
     public function __construct(SimpleRepository $simple)
     {
         $this->simple = $simple;
@@ -29,7 +31,15 @@ class SimpleController extends Controller
     public function reg_act()
     {
     	$res = $this->simple->reg();
-        return $res;
+      if ($res) 
+      {
+          alert()->success('恭喜您注册成功，请激活您的邮箱')->persistent("以后激活");
+          return view('simple.login');
+      }
+      else
+      {
+          return redirect('/reg');
+      }
     }
 
     /**
@@ -43,6 +53,7 @@ class SimpleController extends Controller
         if($arr)
         {
             $request->session()->put('username',$arr->username);
+            //print_r($arr->username);
             return redirect('/');
         }
         else

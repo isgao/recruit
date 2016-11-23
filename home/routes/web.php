@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Storage;
 Route::get('/', 'SiteController@index');
 //注册页面
 Route::get('/reg', function(){
+	
 	return view('simple.register');
 });
 //注册动作
@@ -28,3 +29,6 @@ Route::get('/jianli','ResumeaddController@index');
 //QQ登录
 Route::get('/auth/qq', 'SimpleController@qq');
 Route::get('/auth/qq_callback', 'SimpleController@qq_callback');
+
+//验证码
+Route::get('/auth/geetest','SimpleController@getGeetest');

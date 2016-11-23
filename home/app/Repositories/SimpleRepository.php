@@ -26,10 +26,12 @@ class SimpleRepository
             //求职者注册    
             case '0':
                 $userObj = new User;
-                $userObj->email = Input::get('email');
+                $userObj->email = $userObj->username = Input::get('email');
                 $userObj->password = Hash::make(Input::get('password'));
                 $userObj->create_time = date("Y-m-d H:i:s",time());
                 $res = $userObj->save();
+                //邮件激活
+                event(new \App\Events\register($userObj));
                 break;
 
             //企业注册
@@ -41,18 +43,12 @@ class SimpleRepository
                 $res = $companyObj->save();
                 break;
         }
-
         //返回请求数据
-        if ($res) 
-        {
-            return '{"success":"true","content":"' . url('/') . '"}';
-        }
-        else
-        {
-            return '{"success":"false","msg":"注册失败"}';
-        }
+        return $res;
 
     }
+
+    
     public function sel($data){
         $arr = User::where('email',$data['email'])->first();
 //        return $data['password'];

@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - recruit@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="recruit">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema"/>
+    <schema id="3" name="iwebshop"/>
+    <schema id="4" name="knight"/>
+    <schema id="5" name="mysql"/>
+    <schema id="6" name="performance_schema"/>
+    <schema id="7" name="test"/>
+    <table id="8" parent="1" name="rec_admin"/>
+    <table id="9" parent="1" name="rec_areas">
+      <comment>地区信息</comment>
+    </table>
+    <table id="10" parent="1" name="rec_collection">
+      <comment>收藏表</comment>
+    </table>
+    <table id="11" parent="1" name="rec_company"/>
+    <table id="12" parent="1" name="rec_company_tag"/>
+    <table id="13" parent="1" name="rec_company_territory">
+      <comment>行业领域表 与 公司表 的衍生表</comment>
+    </table>
+    <table id="14" parent="1" name="rec_education">
+      <comment>教育经历</comment>
+    </table>
+    <table id="15" parent="1" name="rec_experience">
+      <comment>工作经验时长</comment>
+    </table>
+    <table id="16" parent="1" name="rec_founder">
+      <comment>创始团队</comment>
+    </table>
+    <table id="17" parent="1" name="rec_internship"/>
+    <table id="18" parent="1" name="rec_investor">
+      <comment>投资机构</comment>
+    </table>
+    <table id="19" parent="1" name="rec_period">
+      <comment>公司发展阶段（融资情况）</comment>
+    </table>
+    <table id="20" parent="1" name="rec_position"/>
+    <table id="21" parent="1" name="rec_position_cate">
+      <comment>职位分类</comment>
+    </table>
+    <table id="22" parent="1" name="rec_product">
+      <comment>公司产品</comment>
+    </table>
+    <table id="23" parent="1" name="rec_project">
+      <comment>项目经验</comment>
+    </table>
+    <table id="24" parent="1" name="rec_resume">
+      <comment>简历表</comment>
+    </table>
+    <table id="25" parent="1" name="rec_salary">
+      <comment>薪水表</comment>
+    </table>
+    <table id="26" parent="1" name="rec_scale">
+      <comment>公司规模</comment>
+    </table>
+    <table id="27" parent="1" name="rec_skill">
+      <comment>技能自评</comment>
+    </table>
+    <table id="28" parent="1" name="rec_tag">
+      <comment>标签</comment>
+    </table>
+    <table id="29" parent="1" name="rec_territory">
+      <comment>行业领域</comment>
+    </table>
+    <table id="30" parent="1" name="rec_user">
+      <comment>求职者表</comment>
+    </table>
+    <table id="31" parent="1" name="rec_works">
+      <comment>个人作品</comment>
+    </table>
+    <column id="32" parent="8" name="admin_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="33" parent="8" name="username">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="34" parent="8" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="35" parent="8" name="status">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="36" parent="8" name="add_time">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="37" parent="8" name="PRIMARY">
+      <columns>admin_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="38" parent="9" name="area_id">
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="39" parent="9" name="parent_id">
+      <comment>上一级的id值</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+    </column>
+    <column id="40" parent="9" name="area_name">
+      <comment>地区名称</comment>
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="41" parent="9" name="sort">
+      <comment>排序</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+      <default-expression>&apos;99&apos;</default-expression>
+    </column>
+    <index id="42" parent="9" name="parent_id">
+      <columns>parent_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="43" parent="9" name="sort">
+      <columns>sort</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="44" parent="9" name="PRIMARY">
+      <columns>area_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="45" parent="10" name="u_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="46" parent="10" name="job_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="47" parent="10" name="PRIMARY">
+      <columns>u_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="48" parent="11" name="company_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="49" parent="11" name="short_name">
+      <comment>简称</comment>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="50" parent="11" name="email">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="51" parent="11" name="phone">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="52" parent="11" name="tel">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="53" parent="11" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="54" parent="11" name="full_name">
+      <comment>全称</comment>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="55" parent="11" name="logo">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="56" parent="11" name="site_url">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="57" parent="11" name="city">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="58" parent="11" name="scale_id">
+      <comment>规模ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="59" parent="11" name="period_id">
+      <comment>发展阶段（融资）ID</comment>
+      <data-type>smallint(2)|0</data-type>
+    </column>
+    <column id="60" parent="11" name="brief_intro">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="61" parent="11" name="intro">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="62" parent="11" name="originator">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="63" parent="11" name="status">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="64" parent="11" name="created_at">
+      <data-type>timestamp|0</data-type>
+    </column>
+    <column id="65" parent="11" name="updated_at">
+      <data-type>timestamp|0</data-type>
+    </column>
+    <key id="66" parent="11" name="PRIMARY">
+      <columns>company_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="67" parent="12" name="company_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="68" parent="12" name="tag_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="69" parent="13" name="company_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="70" parent="13" name="territory_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="71" parent="14" name="edu_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="72" parent="14" name="r_id">
+      <comment>简历ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="73" parent="14" name="school_name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="74" parent="14" name="major">
+      <comment>专业</comment>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="75" parent="14" name="degree">
+      <comment>学历 1大专 2本科 3硕士 4博士</comment>
+      <data-type>char(10)|0</data-type>
+    </column>
+    <column id="76" parent="14" name="graduate_year">
+      <comment>毕业年份</comment>
+      <data-type>mediumint(4)|0</data-type>
+    </column>
+    <key id="77" parent="14" name="PRIMARY">
+      <columns>edu_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="78" parent="15" name="experience_id">
+      <mandatory>1</mandatory>
+      <data-type>smallint(6)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="79" parent="15" name="name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="80" parent="15" name="PRIMARY">
+      <columns>experience_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="81" parent="16" name="founder_id">
+      <mandatory>1</mandatory>
+      <data-type>smallint(8)|0</data-type>
+    </column>
+    <column id="82" parent="16" name="company_id">
+      <comment>公司ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="83" parent="16" name="name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="84" parent="16" name="position">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="85" parent="16" name="site_url">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="86" parent="16" name="intro">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="87" parent="16" name="PRIMARY">
+      <columns>founder_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="88" parent="17" name="internship_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="89" parent="17" name="r_id">
+      <comment>简历ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="90" parent="17" name="company_name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="91" parent="17" name="logo">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="92" parent="17" name="position">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="93" parent="17" name="date_start">
+      <comment>在职时间开始</comment>
+      <data-type>date|0</data-type>
+    </column>
+    <column id="94" parent="17" name="date_end">
+      <comment>在职时间结束</comment>
+      <data-type>date|0</data-type>
+    </column>
+    <column id="95" parent="17" name="job_intro">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="96" parent="17" name="PRIMARY">
+      <columns>internship_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="97" parent="18" name="investor_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="98" parent="18" name="company_id">
+      <comment>公司ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="99" parent="18" name="period_id">
+      <comment>发展阶段（融资类型）ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="100" parent="18" name="name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="101" parent="18" name="PRIMARY">
+      <columns>investor_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="102" parent="19" name="period_id">
+      <mandatory>1</mandatory>
+      <data-type>smallint(6)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="103" parent="19" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="104" parent="19" name="PRIMARY">
+      <columns>period_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="105" parent="20" name="position_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="106" parent="20" name="name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="107" parent="20" name="position_cate_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="108" parent="20" name="company_id">
+      <comment>公司ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="109" parent="20" name="department">
+      <comment>所属部门</comment>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="110" parent="20" name="position_type">
+      <comment>职位特性 0兼职 1全职 2实习</comment>
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="111" parent="20" name="salary_min">
+      <comment>最低薪水</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="112" parent="20" name="salary_max">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="113" parent="20" name="is_hot">
+      <data-type>tinyint(1)|0</data-type>
+      <default-expression>&apos;1&apos;</default-expression>
+    </column>
+    <column id="114" parent="20" name="is_new">
+      <data-type>tinyint(1)|0</data-type>
+      <default-expression>&apos;1&apos;</default-expression>
+    </column>
+    <column id="115" parent="20" name="city">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="116" parent="20" name="experience_id">
+      <comment>经验</comment>
+      <data-type>smallint(11)|0</data-type>
+    </column>
+    <column id="117" parent="20" name="degree">
+      <data-type>char(10)|0</data-type>
+    </column>
+    <column id="118" parent="20" name="brief_intro">
+      <comment>简介</comment>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="119" parent="20" name="intro">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="120" parent="20" name="created_at">
+      <data-type>timestamp|0</data-type>
+    </column>
+    <column id="121" parent="20" name="updated_at">
+      <data-type>timestamp|0</data-type>
+    </column>
+    <column id="122" parent="20" name="sort">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;99&apos;</default-expression>
+    </column>
+    <index id="123" parent="20" name="company_id">
+      <columns>company_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="124" parent="20" name="position_cate_id">
+      <columns>position_cate_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="125" parent="20" name="PRIMARY">
+      <columns>position_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="126" parent="21" name="position_cate_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="127" parent="21" name="parent_id">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="128" parent="21" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="129" parent="21" name="sort">
+      <data-type>int(11)|0</data-type>
+      <default-expression>&apos;99&apos;</default-expression>
+    </column>
+    <column id="130" parent="21" name="is_hot">
+      <data-type>tinyint(1)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <key id="131" parent="21" name="PRIMARY">
+      <columns>position_cate_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="132" parent="22" name="product_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="133" parent="22" name="company_id">
+      <comment>公司ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="134" parent="22" name="poster">
+      <comment>海报</comment>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="135" parent="22" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="136" parent="22" name="site_url">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="137" parent="22" name="intro">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="138" parent="22" name="PRIMARY">
+      <columns>product_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="139" parent="23" name="project_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="140" parent="23" name="r_id">
+      <comment>简历ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="141" parent="23" name="name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="142" parent="23" name="site_url">
+      <comment>项目链接</comment>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="143" parent="23" name="job_duty">
+      <comment>项目所负职责</comment>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="144" parent="23" name="intro">
+      <comment>描述</comment>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="145" parent="23" name="PRIMARY">
+      <columns>project_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="146" parent="24" name="r_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="147" parent="24" name="u_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="148" parent="24" name="position_type">
+      <comment>职位特性 0兼职 1全职 2实习</comment>
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="149" parent="24" name="position">
+      <comment>求职岗位</comment>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="150" parent="24" name="position_city">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="151" parent="24" name="salary_id">
+      <comment>薪水ID</comment>
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="152" parent="24" name="askfor">
+      <comment>职位的补充说明</comment>
+      <data-type>text|0</data-type>
+    </column>
+    <column id="153" parent="24" name="resume_status">
+      <comment>简历状态 0未投递 1已投递 2查看中 3通过筛选 4面试 5不合适</comment>
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="154" parent="24" name="user_status">
+      <comment>求职者状态    0目前离职，可入岗        1在职，考虑跳槽       2不想找工作   3应届生</comment>
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="155" parent="24" name="intro">
+      <comment>自己介绍描述</comment>
+      <data-type>text|0</data-type>
+    </column>
+    <column id="156" parent="24" name="created_at">
+      <data-type>timestamp|0</data-type>
+    </column>
+    <column id="157" parent="24" name="updated_at">
+      <data-type>timestamp|0</data-type>
+    </column>
+    <index id="158" parent="24" name="u_id">
+      <columns>u_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="159" parent="24" name="PRIMARY">
+      <columns>r_id</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="160" parent="24" name="rec_resume_ibfk_1">
+      <columns>u_id</columns>
+      <ref-key>~.rec_user.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="161" parent="25" name="salary_id">
+      <mandatory>1</mandatory>
+      <data-type>smallint(6)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="162" parent="25" name="min">
+      <comment>最低薪水</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="163" parent="25" name="max">
+      <comment>最高薪水</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="164" parent="25" name="add_time">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="165" parent="25" name="PRIMARY">
+      <columns>salary_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="166" parent="26" name="scale_id">
+      <mandatory>1</mandatory>
+      <data-type>smallint(6)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="167" parent="26" name="min">
+      <comment>员工最少人数</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="168" parent="26" name="max">
+      <comment>员工最多人数</comment>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="169" parent="26" name="add_time">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="170" parent="26" name="PRIMARY">
+      <columns>scale_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="171" parent="27" name="skill_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="172" parent="27" name="r_id">
+      <comment>简历ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="173" parent="27" name="name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="174" parent="27" name="level">
+      <comment>技能强度   0了解    1熟悉    2掌握    3精通    4专家</comment>
+      <data-type>tinyint(1)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <key id="175" parent="27" name="PRIMARY">
+      <columns>skill_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="176" parent="28" name="tag_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="177" parent="28" name="parent_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="178" parent="28" name="tag_name">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="179" parent="28" name="sort">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="180" parent="28" name="PRIMARY">
+      <columns>tag_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="181" parent="29" name="territory_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="182" parent="29" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="183" parent="29" name="add_time">
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="184" parent="29" name="PRIMARY">
+      <columns>territory_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="185" parent="30" name="u_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="186" parent="30" name="username">
+      <data-type>char(50)|0</data-type>
+    </column>
+    <column id="187" parent="30" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="188" parent="30" name="phone">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="189" parent="30" name="email">
+      <data-type>char(50)|0</data-type>
+    </column>
+    <column id="190" parent="30" name="status">
+      <comment>0未锁定  1锁定  2回收站</comment>
+      <data-type>tinyint(1)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="191" parent="30" name="head_ico">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="192" parent="30" name="degree">
+      <comment>学历 0不限 1大专 2本科 3硕士 4博士</comment>
+      <data-type>char(10)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="193" parent="30" name="work_experience">
+      <comment>工作经验ID</comment>
+      <data-type>tinyint(1)|0</data-type>
+    </column>
+    <column id="194" parent="30" name="qq">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="195" parent="30" name="province">
+      <comment>省ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="196" parent="30" name="city">
+      <comment>市ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="197" parent="30" name="area">
+      <comment>区ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="198" parent="30" name="address">
+      <comment>详细地址</comment>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="199" parent="30" name="intro">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="200" parent="30" name="create_time">
+      <comment>注册时间</comment>
+      <data-type>datetime|0</data-type>
+    </column>
+    <column id="201" parent="30" name="last_login">
+      <comment>上一次登录时间</comment>
+      <data-type>datetime|0</data-type>
+    </column>
+    <key id="202" parent="30" name="PRIMARY">
+      <columns>u_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="203" parent="31" name="works_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="204" parent="31" name="r_id">
+      <comment>简历ID</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="205" parent="31" name="title">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="206" parent="31" name="site_url">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="207" parent="31" name="images">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="208" parent="31" name="status">
+      <comment>作品状态 0离线 1在线</comment>
+      <data-type>tinyint(1)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="209" parent="31" name="intro">
+      <comment>作品描述</comment>
+      <data-type>text|0</data-type>
+    </column>
+    <key id="210" parent="31" name="PRIMARY">
+      <columns>works_id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -13,5 +13,6 @@ class User extends Model
 	protected $table = 'user';
 	//关闭时间戳
     public $timestamps = false;
-
+    //自增ID
+    protected $primaryKey = 'u_id';
 }

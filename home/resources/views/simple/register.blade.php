@@ -3,7 +3,7 @@
 @section('title', '注册')
 
 @section('form')
-	<form id="loginForm">
+	<form id="loginForm" method="post" action="{{action('SimpleController@reg_act')}}">
 		{{ csrf_field() }}
 		<ul class="register_radio clearfix">
             <li>
@@ -18,15 +18,12 @@
     	<input type="text" id="email" name="email" tabindex="1" placeholder="请输入常用邮箱地址" />
         <span class="error" style="display:none;" id="beError"></span>
         <input type="password" id="password" name="password" tabindex="2" placeholder="请输入密码" />
+        {!! Geetest::render() !!} <br>
+       
     	<label class="fl registerJianJu" for="checkbox">
     		<input type="checkbox" id="checkbox" name="checkbox" checked  class="checkbox valid" />我已阅读并同意<a href="h/privacy.html" target="_blank">《拉勾用户协议》</a>
    		</label>
         <input type="submit" id="submitLogin" value="注 &nbsp; &nbsp; 册" />
-        
-        <input type="hidden" id="callback" name="callback" value=""/>
-        <input type="hidden" id="authType" name="authType" value=""/>
-        <input type="hidden" id="signature" name="signature" value=""/>
-        <input type="hidden" id="timestamp" name="timestamp" value=""/>
     </form>
 @endsection
 
