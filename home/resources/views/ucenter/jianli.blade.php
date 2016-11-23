@@ -47,7 +47,8 @@
             </ul>
             <dl class="collapsible_menu">
                 <dt>
-                    <span>张三&nbsp;</span>
+                    <span>
+                            {{session('username')}}&nbsp;</span>
                     <span class="red dn" id="noticeDot-0"></span>
                     <i></i>
                 </dt>
@@ -73,15 +74,20 @@
             <div class="content_l">
                 <div class="fl" id="resume_name">
                     <div class="nameShow fl">
-                        <h1 title="jason的简历">张三的简历</h1>
+                        <h1 title="
+                           <?php $thirdCate = App\Classes\Api::run('getUser',array('#session_username#',session('username')));?>
+                                {{ $thirdCate[0]->username}}
+
+                            的简历">
+                          {{$thirdCate[0]->username}}  的简历</h1>
                         <span class="rename">重命名</span> | <a target="_blank" href="h/resume/preview.html">预览</a>
                     </div>
                     <form class="fl dn" id="resumeNameForm">
-                        <input type="text" value="张三的简历" name="resumeName" class="nameEdit c9">
+                        <input type="text" value="
+                             {{$thirdCate[0]->username}} 的简历" name="resumeName" class="nameEdit c9">
                         <input type="submit" value="保存"> | <a target="_blank" href="h/resume/preview.html">预览</a>
                     </form>
                 </div><!--end #resume_name-->
-                <div class="fr c5" id="lastChangedTime">最后一次更新：<span>2014-07-01 15:14 </span></div><!--end #lastChangedTime-->
                 <div id="resumeScore">
                     <div class="score fl">
                         <canvas height="120" width="120" id="doughnutChartCanvas" style="width: 120px; height: 120px;"></canvas>
@@ -98,16 +104,30 @@
                     <h2>基本信息</h2>
                     <span class="c_edit"></span>
                     <div class="basicShow">
-            			            			<span>张三 |  男 |    本科 |  3年工作经验<br>
-            			            			18712198888 | 1865495185@qq.com<br>
+                        <span>
+                           {{$thirdCate[0]->username}}  |   {{ $thirdCate[0]->six}}  |
+                                @if($thirdCate[0]->degree==1)
+                                    大专
+                                @elseif($thirdCate[0]->degree==2)
+                                    本科
+                                @elseif($thirdCate[0]->degree==3)
+                                    硕士
+                                @elseif($thirdCate[0]->degree==4)
+                                    博士
+                                @else
+                                    其他
+                                @endif
+                                    |  {{ $thirdCate[0]->name }}工作经验<br>
+                                {{ $thirdCate[0]->phone}} |  {{ $thirdCate[0]->email}} <br>
             			</span>
                         <div class="m_portrait">
                             <div></div>
                             <img width="120" height="120" alt="jason" src="style/images/default_headpic.png">
                         </div>
                     </div><!--end .basicShow-->
-
                     <div class="basicEdit dn">
+
+
                         <form id="profileForm">
                             <table>
                                 <tbody><tr>
@@ -198,7 +218,8 @@
                                                 <li>我目前已离职，可快速到岗</li>
                                                 <li>我目前正在职，正考虑换个新环境</li>
                                                 <li>我暂时不想找工作</li>
-                                                <li>我是应届毕业生</li>
+                                                <li>我是应届毕业生</
+                                                li>
                                             </ul>
                                         </div>
                                     </td>
@@ -212,6 +233,7 @@
                                 </tr>
                                 </tbody></table>
                         </form><!--end #profileForm-->
+
                         <div class="new_portrait">
                             <div class="portrait_upload" id="portraitNo">
                                 <span>上传自己的头像</span>
@@ -229,13 +251,13 @@
                             <span style="display:none;" id="headPic_error" class="error"></span>
                         </div><!--end .new_portrait-->
                     </div><!--end .basicEdit-->
-                    <input type="hidden" id="nameVal" value="张三">
-                    <input type="hidden" id="genderVal" value="男">
+                    <input type="hidden" id="nameVal" value="{{session('username')}}">
+                    <input type="hidden" id="genderVal" value="{{$thirdCate[0]->username}}">
                     <input type="hidden" id="topDegreeVal" value="大专">
                     <input type="hidden" id="workyearVal" value="5年">
                     <input type="hidden" id="currentStateVal" value="">
-                    <input type="hidden" id="emailVal" value="251661614@qq.com">
-                    <input type="hidden" id="telVal" value="1868888888">
+                    <input type="hidden" id="emailVal" value="{{$thirdCate[0]->email}}">
+                    <input type="hidden" id="telVal" value="{{$thirdCate[0]->phone}}">
                     <input type="hidden" id="pageType" value="1">
                 </div><!--end #basicInfo-->
 

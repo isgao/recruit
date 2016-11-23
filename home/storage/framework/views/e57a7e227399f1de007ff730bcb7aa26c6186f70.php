@@ -1,36 +1,36 @@
-﻿@extends('layouts.site')
+﻿
 
-@section('title', '八维招聘')
-@section('content')
+<?php $__env->startSection('title', '请输入此页面title'); ?>
+<?php $__env->startSection('content'); ?>
 	<div id="sidebar">
         <!--职位分类 start-->
 		<div class="mainNavs">
             <?php $firstCate = App\Classes\Api::run('getFirstCate');?>
-            @foreach ($firstCate as $k => $v)
+            <?php $__currentLoopData = $firstCate; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $k => $v): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
             <div class="menu_box">
                 <div class="menu_main">
-                    <h2>{{$v->name}}<span></span></h2>
+                    <h2><?php echo e($v->name); ?><span></span></h2>
                     <?php $hotCate = App\Classes\Api::run('getHotCate');?>
-                    @foreach ($hotCate as $hotVal)
-                        <a href="#">{{$hotVal->name}}</a>
-                    @endforeach
+                    <?php $__currentLoopData = $hotCate; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $hotVal): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                        <a href="#"><?php echo e($hotVal->name); ?></a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
                 </div>
                 <div class="menu_sub dn" style="top: 0px;">
                     <?php $secondCate = App\Classes\Api::run('getSecondCate',array('#parent_id#',$v->position_cate_id));?>
-                    @foreach ($secondCate as $kk => $vv)
+                    <?php $__currentLoopData = $secondCate; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $kk => $vv): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
                     <dl class="reset">
-                        <dt><a href="#">{{$vv->name}}</a></dt>
+                        <dt><a href="#"><?php echo e($vv->name); ?></a></dt>
                         <?php $thirdCate = App\Classes\Api::run('getSecondCate',array('#parent_id#',$vv->position_cate_id));?>
                         <dd>
-                            @foreach ($thirdCate as $kkk => $vvv)
-                            <a href="#">{{$vvv->name}}</a>
-                            @endforeach
+                            <?php $__currentLoopData = $thirdCate; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $kkk => $vvv): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                            <a href="#"><?php echo e($vvv->name); ?></a>
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
                         </dd>
                     </dl>
-                    @endforeach
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
                 </div>
             </div>
-            @endforeach
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
 		</div>
 		<a class="subscribe" href="subscribe.html" target="_blank">订阅职位</a>
          <!--职位分类 end-->
@@ -64,7 +64,7 @@
 .ui-menu-item{ *width:439px;vertical-align: middle;position: relative;margin: 0px;margin-right: 50px !important;background:#fff;border-right: 1px dashed #ededed;}
 .ui-menu-item a{display:block;overflow:hidden;}
 </style>
-<script type="text/javascript" src="{{URL::asset('style/js/search.min.js')}}"></script>
+<script type="text/javascript" src="<?php echo e(URL::asset('style/js/search.min.js')); ?>"></script>
         <dl class="hotSearch">
             <dt>热门搜索：</dt>
             <dd><a href="list.htmlJava?labelWords=label&city=">Java</a></dd>
@@ -83,13 +83,13 @@
 		<div id="home_banner">
             <ul class="banner_bg">
             		                <li  class="banner_bg_1 current" >
-                    <a href="h/subject/s_buyfundation.html?utm_source=DH__lagou&utm_medium=banner&utm_campaign=haomai" target="_blank"><img src="{{URL::asset('style/images/d05a2cc6e6c94bdd80e074eb05e37ebd.jpg')}}" width="612" height="160" alt="好买基金——来了就给100万" /></a>
+                    <a href="h/subject/s_buyfundation.html?utm_source=DH__lagou&utm_medium=banner&utm_campaign=haomai" target="_blank"><img src="<?php echo e(URL::asset('style/images/d05a2cc6e6c94bdd80e074eb05e37ebd.jpg')); ?>" width="612" height="160" alt="好买基金——来了就给100万" /></a>
                 </li>
                 	                <li  class="banner_bg_2" >
-                    <a href="h/subject/s_worldcup.html?utm_source=DH__lagou&utm_medium=home&utm_campaign=wc" target="_blank"><img src="{{URL::asset('style/images/c9d8a0756d1442caa328adcf28a38857.jpg')}}" width="612" height="160" alt="世界杯放假看球，老板我也要！" /></a>
+                    <a href="h/subject/s_worldcup.html?utm_source=DH__lagou&utm_medium=home&utm_campaign=wc" target="_blank"><img src="<?php echo e(URL::asset('style/images/c9d8a0756d1442caa328adcf28a38857.jpg')); ?>" width="612" height="160" alt="世界杯放假看球，老板我也要！" /></a>
                 </li>
                 	                <li  class="banner_bg_3" >
-                    <a href="h/subject/s_xiamen.html?utm_source=DH__lagou&utm_medium=home&utm_campaign=xiamen" target="_blank"><img src="{{URL::asset('style/images/d03110162390422bb97cebc7fd2ab586.jpg')}}" width="612" height="160" alt="出北京记——第一站厦门" /></a>
+                    <a href="h/subject/s_xiamen.html?utm_source=DH__lagou&utm_medium=home&utm_campaign=xiamen" target="_blank"><img src="<?php echo e(URL::asset('style/images/d03110162390422bb97cebc7fd2ab586.jpg')); ?>" width="612" height="160" alt="出北京记——第一站厦门" /></a>
                 </li>
             </ul>
             <div class="banner_control">
@@ -97,15 +97,15 @@
                 <ul class="thumbs">
                 	<li  class="thumbs_1 current" >
                         <i></i>
-                        <img src="{{URL::asset('style/images/4469b1b83b1f46c7adec255c4b1e4802.jpg')}}" width="113" height="42" />
+                        <img src="<?php echo e(URL::asset('style/images/4469b1b83b1f46c7adec255c4b1e4802.jpg')); ?>" width="113" height="42" />
                     </li>
                     <li  class="thumbs_2" >
                         <i></i>
-                        <img src="{{URL::asset('style/images/381b343557774270a508206b3a725f39.jpg')}}" width="113" height="42" />
+                        <img src="<?php echo e(URL::asset('style/images/381b343557774270a508206b3a725f39.jpg')); ?>" width="113" height="42" />
                     </li>
                     <li  class="thumbs_3" >
                         <i></i>
-                        <img src="{{URL::asset('style/images/354d445c5fd84f1990b91eb559677eb5.jpg')}}" width="113" height="42" />
+                        <img src="<?php echo e(URL::asset('style/images/354d445c5fd84f1990b91eb559677eb5.jpg')); ?>" width="113" height="42" />
                     </li>
                 </ul>
             </div>
@@ -116,7 +116,7 @@
     	<ul id="da-thumbs" class="da-thumbs">
     		<li >
                 <a href="h/c/1650.html" target="_blank">
-                    <img src="{{URL::asset('style/images/a254b11ecead45bda166afa8aaa9c8bc.jpg')}}" width="113" height="113" alt="联想" />
+                    <img src="<?php echo e(URL::asset('style/images/a254b11ecead45bda166afa8aaa9c8bc.jpg')); ?>" width="113" height="113" alt="联想" />
                     <div class="hot_info">
                     	<h2 title="联想">联想</h2>
                         <em></em>
@@ -128,7 +128,7 @@
             </li>
         	<li >
                 <a href="h/c/9725.html" target="_blank">
-                    <img src="{{URL::asset('style/images/c75654bc2ab141df8218983cfe5c89f9.jpg')}}" width="113" height="113" alt="淘米" />
+                    <img src="<?php echo e(URL::asset('style/images/c75654bc2ab141df8218983cfe5c89f9.jpg')); ?>" width="113" height="113" alt="淘米" />
                     <div class="hot_info">
                     	<h2 title="淘米">淘米</h2>
                         <em></em>
@@ -140,7 +140,7 @@
             </li>
         	<li >
                 <a href="h/c/1914.html" target="_blank">
-                    <img src="{{URL::asset('style/images/2bba2b71d0b0443eaea1774f7ee17c9f.png')}}" width="113" height="113" alt="优酷土豆" />
+                    <img src="<?php echo e(URL::asset('style/images/2bba2b71d0b0443eaea1774f7ee17c9f.png')); ?>" width="113" height="113" alt="优酷土豆" />
                     <div class="hot_info">
                     	<h2 title="优酷土豆">优酷土豆</h2>
                         <em></em>
@@ -152,7 +152,7 @@
             </li>
         	<li >
                 <a href="h/c/6630.html" target="_blank">
-                    <img src="{{URL::asset('style/images/f4822a445a8b495ebad81fcfad3e40e2.jpg')}}" width="113" height="113" alt="思特沃克" />
+                    <img src="<?php echo e(URL::asset('style/images/f4822a445a8b495ebad81fcfad3e40e2.jpg')); ?>" width="113" height="113" alt="思特沃克" />
                     <div class="hot_info">
                     	<h2 title="思特沃克">思特沃克</h2>
                         <em></em>
@@ -164,7 +164,7 @@
             </li>
         	<li >
                 <a href="h/c/2700.html" target="_blank">
-                    <img src="{{URL::asset('style/images/5caf8f9631114bf990f87bb11360653e.png')}}" width="113" height="113" alt="奇猫" />
+                    <img src="<?php echo e(URL::asset('style/images/5caf8f9631114bf990f87bb11360653e.png')); ?>" width="113" height="113" alt="奇猫" />
                     <div class="hot_info">
                     	<h2 title="奇猫">奇猫</h2>
                         <em></em>
@@ -176,7 +176,7 @@
             </li>
         	<li  class="last" >
                 <a href="h/c/1335.html" target="_blank">
-                    <img src="{{URL::asset('style/images/c0052c69ef4546c3b7d08366d0744974.jpg')}}" width="113" height="113" alt="堆糖网" />
+                    <img src="<?php echo e(URL::asset('style/images/c0052c69ef4546c3b7d08366d0744974.jpg')); ?>" width="113" height="113" alt="堆糖网" />
                     <div class="hot_info">
                     	<h2 title="堆糖网">堆糖网</h2>
                         <em></em>
@@ -197,104 +197,104 @@
             <!--热门职位-->
             <ul class="hot_pos reset">
                 <?php $hotPosition = App\Classes\Api::run('getHotPosition')?>
-                @foreach ($hotPosition as $hotJob_key => $hotJob_v)
+                <?php $__currentLoopData = $hotPosition; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $hotJob_key => $hotJob_v): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
                 	<li class="clearfix">
     	            	<div class="hot_pos_l">
     		                <div class="mb10">
-    		                    <a href="#" target="_blank">{{$hotJob_v->name}}</a> &nbsp;
-    		                    <span class="c9">[{{$hotJob_v->city}}]</span>
+    		                    <a href="#" target="_blank"><?php echo e($hotJob_v->name); ?></a> &nbsp;
+    		                    <span class="c9">[<?php echo e($hotJob_v->city); ?>]</span>
     		                </div>
                             <span><em class="c7">月薪： </em>
-                                {{$hotJob_v->salary_min}}k-{{$hotJob_v->salary_max}}k
+                                <?php echo e($hotJob_v->salary_min); ?>k-<?php echo e($hotJob_v->salary_max); ?>k
                             </span>
-                            <span><em class="c7">经验：</em> {{$hotJob_v->sname}}</span>
-                            <span><em class="c7">最低学历： </em>{{$hotJob_v->degree}}</span>
+                            <span><em class="c7">经验：</em> <?php echo e($hotJob_v->sname); ?></span>
+                            <span><em class="c7">最低学历： </em><?php echo e($hotJob_v->degree); ?></span>
                             <br />
-                            <span><em class="c7">职位诱惑：</em>{{$hotJob_v->brief_intro}}</span>
+                            <span><em class="c7">职位诱惑：</em><?php echo e($hotJob_v->brief_intro); ?></span>
                             <br />
-    	                    <span>发布时间：{{date("Y-m-d",strtotime($hotJob_v->brief_intro))}}</span>
+    	                    <span>发布时间：<?php echo e(date("Y-m-d",strtotime($hotJob_v->brief_intro))); ?></span>
                             <!-- <a  class="wb">分享到微博</a> -->
     		            </div>
                         <div class="hot_pos_r">
                             <?php $companyInfo = App\Classes\Api::run('getCompanyByJob',['#id#',$hotJob_v->company_id]);?>
                             <div class="mb10 recompany">
-                                <a href="h/c/399.html" target="_blank">{{$companyInfo[0]->short_name}}</a>
+                                <a href="h/c/399.html" target="_blank"><?php echo e($companyInfo[0]->short_name); ?></a>
                             </div>
                             <span><em class="c7">领域：</em> 
-                                @if ($companyInfo)
-                                    @foreach ($companyInfo as $area)
-                                        {{$area->tname}} &nbsp;&nbsp;&nbsp;
-                                    @endforeach
-                                @endif
+                                <?php if($companyInfo): ?>
+                                    <?php $__currentLoopData = $companyInfo; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $area): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                                        <?php echo e($area->tname); ?> &nbsp;&nbsp;&nbsp;
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                                <?php endif; ?>
                             </span>
-                            <span><em class="c7">创始人：</em>{{$companyInfo[0]->originator}}</span><br />
-                            <span><em class="c7">阶段：</em> {{$companyInfo[0]->pname}}</span>
+                            <span><em class="c7">创始人：</em><?php echo e($companyInfo[0]->originator); ?></span><br />
+                            <span><em class="c7">阶段：</em> <?php echo e($companyInfo[0]->pname); ?></span>
                             <span><em class="c7">规模：</em>
-                                {{$companyInfo[0]->min}}-{{$companyInfo[0]->max}}人
+                                <?php echo e($companyInfo[0]->min); ?>-<?php echo e($companyInfo[0]->max); ?>人
                             </span>
                             <ul class="companyTags reset">
                                 <?php $companyTag = App\Classes\Api::run('getTagByCompanyId',['#id#',$hotJob_v->company_id]);?>
-                                @if($companyTag)
-                                    @foreach ($companyTag as $tag)
-                                	   <li>{{$tag->tag_name}}</li>
-                                    @endforeach
-                                @endif
+                                <?php if($companyTag): ?>
+                                    <?php $__currentLoopData = $companyTag; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $tag): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                                	   <li><?php echo e($tag->tag_name); ?></li>
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                                <?php endif; ?>
                             </ul>
                         </div>
     		        </li>
-                @endforeach
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
                 <a href="list.html" class="btn fr" target="_blank">查看更多</a>
             </ul>
 
             <!--最新职位-->
             <ul class="hot_pos hot_posHotPosition reset" style="display:none;">
                 <?php $hotPosition = App\Classes\Api::run('getNewPosition')?>
-                @foreach ($hotPosition as $hotJob_key => $hotJob_v)
+                <?php $__currentLoopData = $hotPosition; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $hotJob_key => $hotJob_v): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
                     <li class="clearfix">
                         <div class="hot_pos_l">
                             <div class="mb10">
-                                <a href="#" target="_blank">{{$hotJob_v->name}}</a> &nbsp;
-                                <span class="c9">[{{$hotJob_v->city}}]</span>
+                                <a href="#" target="_blank"><?php echo e($hotJob_v->name); ?></a> &nbsp;
+                                <span class="c9">[<?php echo e($hotJob_v->city); ?>]</span>
                             </div>
                             <span><em class="c7">月薪： </em>
-                                {{$hotJob_v->salary_min}}k-{{$hotJob_v->salary_max}}k
+                                <?php echo e($hotJob_v->salary_min); ?>k-<?php echo e($hotJob_v->salary_max); ?>k
                             </span>
-                            <span><em class="c7">经验：</em> {{$hotJob_v->sname}}</span>
-                            <span><em class="c7">最低学历： </em>{{$hotJob_v->degree}}</span>
+                            <span><em class="c7">经验：</em> <?php echo e($hotJob_v->sname); ?></span>
+                            <span><em class="c7">最低学历： </em><?php echo e($hotJob_v->degree); ?></span>
                             <br />
-                            <span><em class="c7">职位诱惑：</em>{{$hotJob_v->brief_intro}}</span>
+                            <span><em class="c7">职位诱惑：</em><?php echo e($hotJob_v->brief_intro); ?></span>
                             <br />
-                            <span>发布时间：{{date("Y-m-d",strtotime($hotJob_v->brief_intro))}}</span>
+                            <span>发布时间：<?php echo e(date("Y-m-d",strtotime($hotJob_v->brief_intro))); ?></span>
                             <!-- <a  class="wb">分享到微博</a> -->
                         </div>
                         <div class="hot_pos_r">
                             <?php $companyInfo = App\Classes\Api::run('getCompanyByJob',['#id#',$hotJob_v->company_id]);?>
                             <div class="mb10 recompany">
-                                <a href="h/c/399.html" target="_blank">{{$companyInfo[0]->short_name}}</a>
+                                <a href="h/c/399.html" target="_blank"><?php echo e($companyInfo[0]->short_name); ?></a>
                             </div>
                             <span><em class="c7">领域：</em> 
-                                @if ($companyInfo)
-                                    @foreach ($companyInfo as $area)
-                                        {{$area->tname}} &nbsp;&nbsp;&nbsp;
-                                    @endforeach
-                                @endif
+                                <?php if($companyInfo): ?>
+                                    <?php $__currentLoopData = $companyInfo; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $area): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                                        <?php echo e($area->tname); ?> &nbsp;&nbsp;&nbsp;
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                                <?php endif; ?>
                             </span>
-                            <span><em class="c7">创始人：</em>{{$companyInfo[0]->originator}}</span><br />
-                            <span><em class="c7">阶段：</em> {{$companyInfo[0]->pname}}</span>
+                            <span><em class="c7">创始人：</em><?php echo e($companyInfo[0]->originator); ?></span><br />
+                            <span><em class="c7">阶段：</em> <?php echo e($companyInfo[0]->pname); ?></span>
                             <span><em class="c7">规模：</em>
-                                {{$companyInfo[0]->min}}-{{$companyInfo[0]->max}}人
+                                <?php echo e($companyInfo[0]->min); ?>-<?php echo e($companyInfo[0]->max); ?>人
                             </span>
                             <ul class="companyTags reset">
                                 <?php $companyTag = App\Classes\Api::run('getTagByCompanyId',['#id#',$hotJob_v->company_id]);?>
-                                @if($companyTag)
-                                    @foreach ($companyTag as $tag)
-                                       <li>{{$tag->tag_name}}</li>
-                                    @endforeach
-                                @endif
+                                <?php if($companyTag): ?>
+                                    <?php $__currentLoopData = $companyTag; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $tag): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
+                                       <li><?php echo e($tag->tag_name); ?></li>
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                                <?php endif; ?>
                             </ul>
                         </div>
                     </li>
-                @endforeach
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
                 <a href="list.html" class="btn fr" target="_blank">查看更多</a>
             </ul>
         </div>
@@ -318,4 +318,5 @@
 		</div>
     </div>	
 	    <input type="hidden" value="" name="userid" id="userid" />
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.site', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

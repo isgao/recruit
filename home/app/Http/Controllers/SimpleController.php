@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Alert;
 use Socialite;
 use Illuminate\Http\Request;
 use Germey\Geetest\CaptchaGeetest;
@@ -50,16 +51,35 @@ class SimpleController extends Controller
     public function login_act(Request $request){
         $data = $request->input();
         $arr = $this->simple->sel($data);
+
         if($arr)
         {
             $request->session()->put('username',$arr->username);
+<<<<<<< HEAD
             //print_r($arr->username);
+=======
+            //dd($arr);
+>>>>>>> a735ea3031b6d12826bf7e818d10a4d5612bfeb1
             return redirect('/');
         }
         else
         {
             echo "<script>alert('请输入正确的账号和密码!');</script>";
         }
+    }
+
+    /**
+     * [exit  退出账户]
+     * @param  Request $request [description]
+     * @return [type] [description]
+     */
+    public function _exit(Request $request)
+    {
+        $request->session()->forget('username');
+
+        Alert::message('您已安全退出');
+
+        return response()->view('site.index');
     }
 
     /**
